@@ -3774,6 +3774,28 @@
                 }
               }
             </style>
+            <!-- jQuery library -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+            <!-- FancyBox CSS -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+            <!-- FancyBox JavaScript -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+            <script>
+              $(document).ready(function() {
+                // Initialize FancyBox
+                $("[data-fancybox]").fancybox({
+                  // Options (if needed)
+                  animationEffect: "fade", // Fade animation
+                  transitionEffect: "slide", // Slide transition
+                  loop: true, // Loop through videos
+                  buttons: ["zoom", "slideShow", "thumbs", "close"] // Display buttons
+                });
+              });
+            </script>
+            
+
             <div class="swiper hero-slider js-hero-slider">
               <div class="swiper-container js-swiper-slider">
                 <div class="swiper-wrapper">
@@ -3806,7 +3828,7 @@
                             Особая промышленная зона расположенная в Янгихаятском районе города Ташкента. </div>
                         <div
                           class="hero-video-trigger"
-                          data-fancybox-trigger="GALLERY_ID_16800"
+                          data-fancybox data-src="./video/video1.mp4"
                         >
                           смотреть видео
                         </div>
@@ -3849,7 +3871,7 @@
                         </div>
                         <div
                           class="hero-video-trigger"
-                          data-fancybox-trigger="GALLERY_ID_17980"
+                          data-fancybox data-src="./video/video1.mp4"
                         >
                           смотреть видео
                         </div>
@@ -3892,7 +3914,7 @@
                         </div>
                         <div
                           class="hero-video-trigger"
-                          data-fancybox-trigger="GALLERY_ID_16801"
+                          data-fancybox data-src="./video/video1.mp4"
                         >
                           смотреть видео
                         </div>
@@ -3933,7 +3955,7 @@
                         </div>
                         <div
                           class="hero-video-trigger"
-                          data-fancybox-trigger="GALLERY_ID_18583"
+                          data-fancybox data-src="./video/video1.mp4"
                         >
                           смотреть видео
                         </div>
@@ -4462,7 +4484,7 @@
                             role="tab"
                             aria-selected="true"
                           >
-                            Расположение
+                          Налаживание производства
                           </div>
                         </li>
                         <li class="nav-item">
@@ -4474,7 +4496,7 @@
                             role="tab"
                             aria-selected="false"
                           >
-                            Инфраструктура
+                          Расширение проектов
                           </div>
                         </li>
                         <li class="nav-item">
@@ -4486,7 +4508,7 @@
                             role="tab"
                             aria-selected="false"
                           >
-                            Упрощенные процедуры
+                          Создание инфраструктуры
                           </div>
                         </li>
                         <li class="nav-item">
@@ -4498,7 +4520,7 @@
                             role="tab"
                             aria-selected="false"
                           >
-                            Операционные преимущества
+                          Увеличение объема развития
                           </div>
                         </li>
                         <li class="nav-item">
@@ -4510,7 +4532,7 @@
                             role="tab"
                             aria-selected="false"
                           >
-                            Экономические стимулы
+                          Выделение земельных участков
                           </div>
                         </li>
                       </ul>
@@ -4867,7 +4889,7 @@
           </div>
           <br />
 
-          <div class="plan-main">
+          <!-- <div class="plan-main">
             <div class="container">
               <div class="row">
                 <div class="col-12">
@@ -5077,7 +5099,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <style>
                 .become-resident-section{
