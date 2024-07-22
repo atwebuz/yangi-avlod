@@ -1140,48 +1140,43 @@
 
                                     <div class="slam-easyform">
                                         <!-- yangiavlodzone@gmail.com -->
-                                        <form id="FORM-resident" class="bv-form" enctype="multipart/form-data"
-                                        method="POST" action="#" autocomplete="on" novalidate="novalidate">
+                                        <form id="FORM-resident-updated" class="bv-form" enctype="multipart/form-data"
+                                            method="POST" action="#" autocomplete="on" novalidate="novalidate">
                                             <div class="alert alert-success hidden" role="alert">
-                                                Сообщение успешно отправлено. В ближайшее время мы ответим Вам. </div>
+                                                Message successfully sent. We will get back to you shortly.
+                                            </div>
                                             <div class="alert alert-danger hidden" role="alert">
-                                                Произошла ошибка. Сообщение не отправлено. </div>
-                                    
-                                            <input type="hidden" name="FORM_ID" value="FORM-resident">
+                                                An error occurred. The message was not sent.
+                                            </div>
+
+                                            <input type="hidden" name="FORM_ID" value="FORM-resident-updated">
                                             <input type="text" name="ANTIBOT[NAME]" value="" class="hidden">
-                                    
+
                                             <div class="">
                                                 <div class="form-group">
                                                     <label class="form-control-label form-control-label--white"
-                                                            for="FORM-resident_FIELD_TITLE">ФИО контактного лица<span
-                                                            class="asterisk"> *</span></label>
+                                                        for="FORM-resident-updated_FIELD_TITLE">Contact Person Full Name</label>
                                                     <input class="form-control" type="text"
-                                                            id="FORM-resident_FIELD_TITLE" name="FIELDS[TITLE]" value=""
-                                                            required data-bv-message="Обязательное поле">
+                                                        id="FORM-resident-updated_FIELD_TITLE" name="FIELDS[TITLE]" value="">
                                                 </div>
                                                 <div class="row">
-                                    
                                                     <div class="col-lg-6">
                                                         <div class="form-group">
                                                             <label class="form-control-label form-control-label--white"
-                                                                    for="FORM-resident_FIELD_CCOMPANY_NAME">Наименование
-                                                                компании<span class="asterisk"> *</span></label>
+                                                                for="FORM-resident-updated_FIELD_COMPANY_NAME">Company Name</label>
                                                             <input class="form-control" type="text"
-                                                                    id="FORM-resident_FIELD_CCOMPANY_NAME"
-                                                                    name="FIELDS[CCOMPANY_NAME]" value="" required
-                                                                    data-bv-message="Обязательное поле">
+                                                                id="FORM-resident-updated_FIELD_COMPANY_NAME"
+                                                                name="FIELDS[COMPANY_NAME]" value="">
                                                         </div>
                                                     </div>
-                                    
+
                                                     <div class="col-lg-6">
                                                         <div class="form-group">
                                                             <label class="form-control-label form-control-label--white"
-                                                                    for="FORM-resident_FIELD_EMAIL">Ваш E-mail<span
-                                                                    class="asterisk"> *</span></label>
+                                                                for="FORM-resident-updated_FIELD_EMAIL">Your E-mail</label>
                                                             <input class="form-control" type="email"
-                                                                    id="FORM-resident_FIELD_EMAIL" name="FIELDS[EMAIL]"
-                                                                    value="" required data-bv-message="Обязательное поле"
-                                                                    data-bv-emailaddress-message="E-mail введен некорректно">
+                                                                id="FORM-resident-updated_FIELD_EMAIL" name="FIELDS[EMAIL]"
+                                                                value="" data-bv-emailaddress-message="Incorrect email address">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1189,169 +1184,156 @@
                                                     <div class="col-lg-6">
                                                         <div class="form-group">
                                                             <label class="form-control-label form-control-label--white"
-                                                                    for="FORM-resident_FIELD_PHONE">Контактный телефон<span
-                                                                    class="asterisk"> *</span></label>
+                                                                for="FORM-resident-updated_FIELD_PHONE">Contact Phone</label>
                                                             <input class="form-control" type="tel"
-                                                                    id="FORM-resident_FIELD_PHONE" name="FIELDS[PHONE]"
-                                                                    value="" required data-bv-message="Обязательное поле">
+                                                                id="FORM-resident-updated_FIELD_PHONE" name="FIELDS[PHONE]"
+                                                                value="">
                                                         </div>
                                                     </div>
-                                    
+
                                                     <div class="col-lg-6">
                                                         <div class="form-group">
                                                             <label class="form-control-label form-control-label--white"
-                                                                    for="FORM-resident_FIELD_UNP">НДС<span class="asterisk">
-                                                                    *</span></label>
+                                                                for="FORM-resident-updated_FIELD_UNP">Tax ID</label>
                                                             <input class="form-control" type="text"
-                                                                    id="FORM-resident_FIELD_UNP" name="FIELDS[UNP]" value=""
-                                                                    required data-bv-message="Обязательное поле">
+                                                                id="FORM-resident-updated_FIELD_UNP" name="FIELDS[UNP]" value="">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="row">
-                                    
                                                     <div class="col-lg-12 helper" style="
                                                         color: #eae1e1;
                                                         margin-bottom: 15px;
                                                         color: #bcbdbc;
-                                                    ">Допустимые типы файлов: doc, docx, xls, xlsx, txt, rtf, pdf, png, jpeg, jpg, gif</div>
+                                                    ">Allowed file types: doc, docx, xls, xlsx, txt, rtf, pdf, png, jpeg, jpg, gif</div>
                                                     <div class="col-lg-6">
                                                         <div class="form-group">
                                                             <div class="drag_n_drop-field">
                                                                 <div class="file-input">
                                                                     <ol class="webform-field-upload-list webform-field-upload-list-multiple"
-                                                                        id="mfi-FORM-resident_FIELD_FILE_1"></ol>
+                                                                        id="mfi-FORM-resident-updated_FIELD_FILE_1"></ol>
                                                                     <div class="webform-field-upload"
-                                                                        id="mfi-FORM-resident_FIELD_FILE_1-button"><span
-                                                                            class="webform-small-button webform-button-upload">Заявление.doc<span
+                                                                        id="mfi-FORM-resident-updated_FIELD_FILE_1-button"><span
+                                                                            class="webform-small-button webform-button-upload">Upload Document<span
                                                                                 class="asterisk"> *</span></span><input
                                                                             type="file"
-                                                                            id="file_input_FORM-resident_FIELD_FILE_1"
-                                                                            name="file_input_FORM-resident_FIELD_FILE_1" multiple="multiple" /></div>
+                                                                            id="file_input_FORM-resident-updated_FIELD_FILE_1"
+                                                                            name="file_input_FORM-resident-updated_FIELD_FILE_1" multiple="multiple" /></div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                    
-                                    
+
                                                     <div class="col-lg-6">
                                                         <div class="form-group">
                                                             <div class="drag_n_drop-field">
                                                                 <div class="file-input">
                                                                     <ol class="webform-field-upload-list webform-field-upload-list-multiple"
-                                                                        id="mfi-FORM-resident_FIELD_FILE_2"></ol>
+                                                                        id="mfi-FORM-resident-updated_FIELD_FILE_2"></ol>
                                                                     <div class="webform-field-upload"
-                                                                        id="mfi-FORM-resident_FIELD_FILE_2-button"><span
-                                                                            class="webform-small-button webform-button-upload">Загрузите
-                                                                        ваш инвестиционный проект<span
+                                                                        id="mfi-FORM-resident-updated_FIELD_FILE_2-button"><span
+                                                                            class="webform-small-button webform-button-upload">Upload Investment Project<span
                                                                                 class="asterisk"> *</span></span><input
                                                                             type="file"
-                                                                            id="file_input_FORM-resident_FIELD_FILE_2"
-                                                                            name="file_input_FORM-resident_FIELD_FILE_2" multiple="multiple" /></div>
+                                                                            id="file_input_FORM-resident-updated_FIELD_FILE_2"
+                                                                            name="file_input_FORM-resident-updated_FIELD_FILE_2" multiple="multiple" /></div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                    
-                                    
+
                                                     <div class="col-lg-6">
                                                         <div class="form-group">
                                                             <div class="drag_n_drop-field">
                                                                 <div class="file-input">
                                                                     <ol class="webform-field-upload-list webform-field-upload-list-multiple"
-                                                                        id="mfi-FORM-resident_FIELD_FILE_3"></ol>
+                                                                        id="mfi-FORM-resident-updated_FIELD_FILE_3"></ol>
                                                                     <div class="webform-field-upload"
-                                                                        id="mfi-FORM-resident_FIELD_FILE_3-button"><span
-                                                                            class="webform-small-button webform-button-upload">Загрузите
-                                                                        копию свидетельства<span class="asterisk">
-                                                                            *</span></span><input type="file"
-                                                                            id="file_input_FORM-resident_FIELD_FILE_3"
-                                                                            name="file_input_FORM-resident_FIELD_FILE_3" multiple="multiple" /></div>
+                                                                        id="mfi-FORM-resident-updated_FIELD_FILE_3-button"><span
+                                                                            class="webform-small-button webform-button-upload">Upload Certificate Copy<span
+                                                                                class="asterisk"> *</span></span><input type="file"
+                                                                            id="file_input_FORM-resident-updated_FIELD_FILE_3"
+                                                                            name="file_input_FORM-resident-updated_FIELD_FILE_3" multiple="multiple" /></div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                    
-                                    
+
                                                     <div class="col-lg-6">
                                                         <div class="form-group">
                                                             <div class="drag_n_drop-field">
                                                                 <div class="file-input">
                                                                     <ol class="webform-field-upload-list webform-field-upload-list-multiple"
-                                                                        id="mfi-FORM-resident_FIELD_FILE_4"></ol>
+                                                                        id="mfi-FORM-resident-updated_FIELD_FILE_4"></ol>
                                                                     <div class="webform-field-upload"
-                                                                        id="mfi-FORM-resident_FIELD_FILE_4-button"><span
-                                                                            class="webform-small-button webform-button-upload">Загрузите
-                                                                        проект договора об условиях деятельности в
-                                                                        индустриальном парке<span class="asterisk">
-                                                                            *</span></span><input type="file"
-                                                                            id="file_input_FORM-resident_FIELD_FILE_4"
-                                                                            name="file_input_FORM-resident_FIELD_FILE_4" multiple="multiple" /></div>
+                                                                        id="mfi-FORM-resident-updated_FIELD_FILE_4-button"><span
+                                                                            class="webform-small-button webform-button-upload">Upload Project Agreement<span
+                                                                                class="asterisk"> *</span></span><input type="file"
+                                                                            id="file_input_FORM-resident-updated_FIELD_FILE_4"
+                                                                            name="file_input_FORM-resident-updated_FIELD_FILE_4" multiple="multiple" /></div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                    
                                                 </div>
                                                 <div class="form-group">
                                                     <label class="form-control-label form-control-label--white"
-                                                            for="FORM-resident_FIELD_MESSAGE">Комментарий</label>
+                                                        for="FORM-resident-updated_FIELD_MESSAGE">Comment</label>
                                                     <textarea class="form-control--textarea form-control"
-                                                                id="FORM-resident_FIELD_MESSAGE" rows="5"
-                                                                name="FIELDS[MESSAGE]"></textarea>
+                                                            id="FORM-resident-updated_FIELD_MESSAGE" rows="5"
+                                                            name="FIELDS[MESSAGE]"></textarea>
                                                 </div>
-                                    
+
                                                 <div class="row">
                                                     <div class="col-12 center-text">
                                                         <button type="submit" class="btn btn--primary btn--large"
-                                                                data-default="Отправить запрос">Отправить запрос</button>
+                                                                data-default="Send Request">Send Request</button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </form>
-                              
 
                                         <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
                                         <script type="text/javascript">
                                             (function() {
-                                                emailjs.init('service_15jsmn4'); // Replace with your EmailJS user ID
+                                                emailjs.init('YOUR_USER_ID'); // Replace with your EmailJS user ID
                                             })();
-                                        </script>
-                                       <script type="text/javascript">
-                                        document.getElementById('FORM-resident').addEventListener('submit', function(event) {
-                                            event.preventDefault();
-                                
-                                            const form = event.target;
-                                            const formData = new FormData(form);
-                                
-                                            const files = [
-                                                formData.get('file_input_FORM-resident_FIELD_FILE_1'),
-                                                formData.get('file_input_FORM-resident_FIELD_FILE_2'),
-                                                formData.get('file_input_FORM-resident_FIELD_FILE_3'),
-                                                formData.get('file_input_FORM-resident_FIELD_FILE_4')
-                                            ];
-                                
-                                            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
-                                                title: formData.get('FIELDS[TITLE]'),
-                                                company_name: formData.get('FIELDS[CCOMPANY_NAME]'),
-                                                email: formData.get('FIELDS[EMAIL]'),
-                                                phone: formData.get('FIELDS[PHONE]'),
-                                                unp: formData.get('FIELDS[UNP]'),
-                                                message: formData.get('FIELDS[MESSAGE]'),
-                                                file1: files[0] ? files[0].name : '',
-                                                file2: files[1] ? files[1].name : '',
-                                                file3: files[2] ? files[2].name : '',
-                                                file4: files[3] ? files[3].name : ''
-                                            })
-                                            .then((response) => {
-                                                document.querySelector('.alert-success').classList.remove('hidden');
-                                                console.log('SUCCESS!', response.status, response.text);
-                                            }, (error) => {
-                                                document.querySelector('.alert-danger').classList.remove('hidden');
-                                                console.error('FAILED...', error);
+
+                                            document.getElementById('FORM-resident-updated').addEventListener('submit', function(event) {
+                                                event.preventDefault();
+
+                                                const form = event.target;
+                                                const formData = new FormData(form);
+
+                                                const files = [
+                                                    formData.get('file_input_FORM-resident-updated_FIELD_FILE_1'),
+                                                    formData.get('file_input_FORM-resident-updated_FIELD_FILE_2'),
+                                                    formData.get('file_input_FORM-resident-updated_FIELD_FILE_3'),
+                                                    formData.get('file_input_FORM-resident-updated_FIELD_FILE_4')
+                                                ];
+
+                                                emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
+                                                    title: formData.get('FIELDS[TITLE]'),
+                                                    company_name: formData.get('FIELDS[COMPANY_NAME]'),
+                                                    email: formData.get('FIELDS[EMAIL]'),
+                                                    phone: formData.get('FIELDS[PHONE]'),
+                                                    unp: formData.get('FIELDS[UNP]'),
+                                                    message: formData.get('FIELDS[MESSAGE]'),
+                                                    file1: files[0] ? files[0].name : '',
+                                                    file2: files[1] ? files[1].name : '',
+                                                    file3: files[2] ? files[2].name : '',
+                                                    file4: files[3] ? files[3].name : ''
+                                                })
+                                                .then((response) => {
+                                                    document.querySelector('.alert-success').classList.remove('hidden');
+                                                    console.log('SUCCESS!', response.status, response.text);
+                                                }, (error) => {
+                                                    document.querySelector('.alert-danger').classList.remove('hidden');
+                                                    console.error('FAILED...', error);
+                                                });
                                             });
-                                        });
-                                    </script>
+                                        </script>
+
                                         
 
                                         <div class="modal fade modal-add-holiday modal-feedback"
