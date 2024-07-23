@@ -24,6 +24,13 @@
     <meta name="msapplication-TileColor" content="#525ECA" />
     <meta name="theme-color" content="#525ECA" />
 
+    <link
+    href="{{asset('front-assets/bitrix/cache/css/s1/html/page_4c6e73b193d106615be7d08c57ce9698/page_4c6e73b193d106615be7d08c57ce9698_v1b8bd.css')}}"
+    media="all" as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'" />
+    <link
+    href="{{asset('front-assets/bitrix/cache/css/s1/html/template_3ab548adc5a30435c542435b63a25fe1/template_3ab548adc5a30435c542435b63a25fe1_v1df5a.css')}}"
+    media="all" as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'" />
+
     <link rel="stylesheet" href="{{asset('front-assets/css/custom.css')}}">
 
     

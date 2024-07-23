@@ -38,71 +38,12 @@
                   <li class="nav-item has-nav">
                     <a
                       class="nav-link"
-                      href="o-parke/index.html"
+                      href="{{route('frontend.about')}}"
                       aria-label="О парке"
                     >
-                      О нас <span class="nav-toggle js-nav-toggle"></span>
+                      О нас 
                     </a>
-                    <div class="js-nav nav-lvl2">
-                      <ul class="nav-lvl2-list">
-                        <li class="nav-lvl2-item">
-                          <a
-                            class="nav-lvl2-link"
-                            href="o-parke/obshhaya-informaciya/index.html"
-                            >Общая информация</a
-                          >
-                        </li>
-                        <li class="nav-lvl2-item">
-                          <a
-                            class="nav-lvl2-link"
-                            href="o-parke/prioritetnye-napravleniya/index.html"
-                            >Приоритетные направления</a
-                          >
-                        </li>
-                        <li class="nav-lvl2-item">
-                          <a
-                            class="nav-lvl2-link"
-                            href="o-parke/struktura-upravleniya/index.html"
-                            >Структура управления</a
-                          >
-                        </li>
-                        <li class="nav-lvl2-item">
-                          <a
-                            class="nav-lvl2-link"
-                            href="o-parke/generalnyj-plan/index.html"
-                            >Генеральный план</a
-                          >
-                        </li>
-                        <li class="nav-lvl2-item">
-                          <a
-                            class="nav-lvl2-link"
-                            href="o-parke/hod-stroitelstva/index.html"
-                            >Ход строительства</a
-                          >
-                        </li>
-                        <li class="nav-lvl2-item">
-                          <a
-                            class="nav-lvl2-link"
-                            href="o-parke/video-o-parke/index.html"
-                            >Видео о парке</a
-                          >
-                        </li>
-                        <li class="nav-lvl2-item">
-                          <a
-                            class="nav-lvl2-link"
-                            href="o-parke/partnery/index.html"
-                            >Партнеры</a
-                          >
-                        </li>
-                        <li class="nav-lvl2-item">
-                          <a
-                            class="nav-lvl2-link"
-                            href="o-parke/obshchestvennoe-obsuzhdenie/index.html"
-                            >Общественные обсуждения</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
+                  
                   </li>
                   <li class="nav-item has-nav">
                     <a

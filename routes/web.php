@@ -191,3 +191,4 @@ Route::get('/language/{lang}',function ($lang){
 */
 
 Route::get('/',[FrontendController::class, 'home'])->name('frontend.home');
+Route::get('/about',[FrontendController::class, 'about'])->name('frontend.about');
