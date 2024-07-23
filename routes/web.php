@@ -15,6 +15,7 @@ use App\Http\Controllers\Blade\JobController;
 use App\Http\Controllers\Blade\CategoryController;
 use App\Http\Controllers\Blade\ProductController;
 use App\Http\Controllers\BrandController;
+use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\ProductModelController;
 use App\Models\ProductModel;
 
@@ -33,9 +34,9 @@ Auth::routes(['register' => false]);
 
 
 // Welcome page
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 
 // Web pages
@@ -188,3 +189,5 @@ Route::get('/language/{lang}',function ($lang){
 | This is the end of Blade (front-end) Routes
 |-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\
 */
+
+Route::get('/',[FrontendController::class, 'home'])->name('frontend.home');
