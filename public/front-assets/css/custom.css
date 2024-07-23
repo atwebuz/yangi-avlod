@@ -1505,6 +1505,7 @@
     max-height: 1px;
   }
   @media (min-width: 576px) {
+   
     .container,
     .container-sm {
       max-width: 576px;
@@ -3170,6 +3171,19 @@
     }
   }
   @media (max-width: 575px) {
+    .hero-slide-img {
+      height: 270px !important;
+  }
+  .hero-slide-subtitle {
+    line-height: 120% !important;
+}
+#logo_custom{
+      margin: 0 !important;
+      padding: 15px !important;
+}
+.about-slide-img {
+  height: 250px !important;
+}
     .w-sm-100p {
       width: 100%;
     }
