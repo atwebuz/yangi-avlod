@@ -1,11 +1,10 @@
 @extends('frontend.layouts.admin')
 @section('frontend_content')
-    <link
-        href="{{ asset('front-assets/bitrix/cache/css/s1/html/page_307be571d95181937fec8ebbe7fe5adf/page_307be571d95181937fec8ebbe7fe5adf_v1699b.css"') }}' media="all"
-        as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'" />
-    <link
-        href="{{ asset('front-assets/bitrix/cache/css/s1/html/template_dc20dfc558440e493f3ffe763b473032/template_dc20dfc558440e493f3ffe763b473032_v15856.css"') }}' media="all"
-        as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'" />
+
+
+        <link href="{{asset('front-assets/bitrix/cache/css/s1/html/page_c1e50e720c878fffbcfc5f9f8508ddbf/page_c1e50e720c878fffbcfc5f9f8508ddbf_v12a2b.css')}}" media="all" as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'" />
+<link href="{{asset('front-assets/bitrix/cache/css/s1/html/template_3ab548adc5a30435c542435b63a25fe1/template_3ab548adc5a30435c542435b63a25fe1_v1df5a.css')}}" media="all" as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'" />
+
     <main class="main">
 
         <div class="no-critical no-critical--preloader">
@@ -52,10 +51,7 @@
                                                 data-target="#ID-16825" role="tab" aria-selected="true">Администрация
                                                 парка</div>
                                         </li>
-                                        <li class="nav-item" id="bx_3218110189_16826">
-                                            <div class="nav-link" id="ID16826" data-toggle="tab" data-target="#ID-16826"
-                                                role="tab" aria-selected="true">Компания по развитию парка</div>
-                                        </li>
+                                      
                                     </ul>
                                 </div>
                             </div>

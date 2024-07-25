@@ -7,12 +7,20 @@
         href="{{ asset('front-assets/bitrix/cache/css/s1/html/template_9bf604bbf67c972104bd38acae7c3f9a/template_9bf604bbf67c972104bd38acae7c3f9a_v1895d.css') }}"
         media="all" as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'" />
 
-        <style>
-            .page-header-container{
+    <style>
+        @media(max-width: 575px) {
+            .page-header-container {
                 overflow-x: scroll;
             }
-            @media(max-width: 575px){
-                table, tbody, td, tfoot, th, thead, time, tr {
+
+            table,
+            tbody,
+            td,
+            tfoot,
+            th,
+            thead,
+            time,
+            tr {
                 margin: auto !important;
                 align-content: center !important;
                 align-items: center !important;
@@ -22,8 +30,8 @@
                 vertical-align: baseline;
                 background: 0 0;
             }
-            }
-        </style>
+        }
+    </style>
     <main class="main">
 
         <div class="no-critical no-critical--preloader">
@@ -173,5 +181,4 @@
         </div>
 
     </main>
-   
 @endsection
