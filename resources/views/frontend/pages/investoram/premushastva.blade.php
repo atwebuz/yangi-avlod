@@ -1,5 +1,13 @@
 @extends('frontend.layouts.admin')
 @section('frontend_content')
+<style>
+    @media screen and (max-width: 575px) {
+    .mini-card__title {
+        font-size: 12px !important;
+        -webkit-line-clamp: 3;
+    }
+}
+</style>
 <link href="{{asset('front-assets/bitrix/cache/css/s1/html/page_55917fc0c9a5b182cc97d87b8098da31/page_55917fc0c9a5b182cc97d87b8098da31_v15914.css')}}" media="all" as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'" />
 <link href="{{asset('front-assets/bitrix/cache/css/s1/html/template_3ab548adc5a30435c542435b63a25fe1/template_3ab548adc5a30435c542435b63a25fe1_v1df5a.css')}}" media="all" as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'" />
 <main class="main">
@@ -39,50 +47,16 @@
                         </div>
                         <div class="page-header-container">
                             <div class="page-header-body">
-                                <h1 class="h1 page-header-title small">Преимущества промышленной зоны
+                                <h1 class="h1 page-header-title small">
                                 </h1>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="page-header-container">
-
-                        <div class="page-header-body">
-                            <div class="page-header-desc">
-                                <ul>
-                                    <li>
-                                        Наличие таможенного логистического центра <br>
-
-                                    </li>
-                                    <li>
-                                        Расположение в черте города <br>
-
-                                    </li>
-                                    <li>
-                                        Легкий доступ к магистральным дорогам  <br>
-
-                                    </li>
-                                    <li>
-                                        Высококвалифицированный персонал <br>
-
-                                    </li>
-                                    <li>
-                                        Развитая инфраструктура <br>
-
-                                    </li>
-                                    <li>
-                                        Государственная поддержка резидентов <br>
-
-                                    </li>
-                                </ul>
-                                
-                            </div>
-                        </div>
-                    </div>
-
+                  
                     <div class="services">
-                        <div class="section-title">Приоритетные направления</div>
+                        <div class="section-title">Преимущества промышленной зоны</div>
 
                         <div class="services__list row">
 
@@ -91,7 +65,7 @@
                                     <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
                                             <img class="lazy-img custom_images"
                                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                data-src="{{asset('front-assets/images/about/1.jpg')}}"
+                                                data-src="{{asset('front-assets/images/premushestva/1.png')}}"
                                                 alt="Наличие таможенного логистического центра">
                                         </span>
                                     </div>
@@ -105,8 +79,7 @@
                                     <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
                                             <img class="lazy-img custom_images"
                                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                data-src="{{asset('front-assets/images/about/7.jpg')}}"
-
+                                                data-src="{{asset('front-assets/images/premushestva/2.png')}}"
                                                 alt="Расположение в черте города">
                                         </span>
                                     </div>
@@ -120,7 +93,7 @@
                                     <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
                                             <img class="lazy-img custom_images"
                                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                data-src="{{asset('front-assets/images/about/2.jpg')}}"
+                                                data-src="{{asset('front-assets/images/premushestva/3.png')}}"
                                                 alt="Легкий доступ к магистральным дорогам">
                                         </span>
                                     </div>
@@ -134,7 +107,7 @@
                                     <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
                                             <img class="lazy-img custom_images"
                                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                data-src="{{asset('front-assets/images/about/8.jpg')}}"
+                                                data-src="{{asset('front-assets/images/premushestva/4.png')}}"
                                                 alt="Высококвалифицированный персонал ">
                                         </span>
                                     </div>
@@ -148,7 +121,7 @@
                                     <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
                                             <img class="lazy-img custom_images"
                                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                data-src="{{asset('front-assets/images/about/3.jpg')}}"
+                                                data-src="{{asset('front-assets/images/premushestva/5.png')}}"
                                                 alt="Развитая инфраструктура">
                                         </span>
                                     </div>
@@ -162,7 +135,7 @@
                                     <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
                                             <img class="lazy-img custom_images"
                                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                data-src="{{asset('front-assets/images/about/9.jpg')}}"
+                                                data-src="{{asset('front-assets/images/premushestva/6.png')}}"
                                                 alt="Государственная поддержка резидентов">
                                         </span>
                                     </div>

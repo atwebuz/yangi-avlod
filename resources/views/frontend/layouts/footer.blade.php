@@ -1,11 +1,23 @@
 <div class="footer">
+    <style>
+       .logo_foo{
+            width: 200px !important;
+             margin: 0 20px 10px;
+       } 
+       @media(max-width: 575px){
+        .logo_foo{
+            width: 100px !important;
+             margin: 0  !important;
+       } 
+       }
+    </style>
             <div class="footer-main">
                 <div class="footer-main-container container">
                     <div class="row">
                         <div class="col-12 col-md-12 col-lg-3 col-xl-4 footer-col">
-                            <span class="logo logo--footer">
+                            <span class="logo logo--footer ">
                                 <!-- <img  src="./Logo.png" alt=""> -->
-                                <img src="{{asset('front-assets/Logo.png')}}" style="width: 200px; margin: 0 20px 10px" alt="ddd" />
+                                <img class="logo_foo" src="{{asset('front-assets/Logo.png')}}" alt="ddd" />
                             </span>
 
 

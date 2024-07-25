@@ -201,7 +201,7 @@
                  
                         <li class="nav-item   ">
 
-                            <a class="nav-link " href="/normativnye-dokumenty/" aria-label="Правовое регулирование">
+                            <a class="nav-link " href="{{route('frontend.normativnie_documenti')}}" aria-label="Правовое регулирование">
                                 Правовое регулирование </a>
                         </li>
                         <li class="nav-item   has-nav">
