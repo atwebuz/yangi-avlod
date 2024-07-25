@@ -12,32 +12,8 @@
                     <div class="row">
                         <div class="col-12 col-xl-3">
 
-                            <aside class="aside js_aside js-sticky" data-margin-top="81" data-sticky-for="1200"
-                                data-sticky-class="is-sticky">
-                                <div class="aside__title">
-                                    Инвесторам </div>
+                            @include('frontend.layouts.__left_aside_investor')
 
-
-                                <nav class="aside__list">
-                                    <a class="aside__link" href="../preimushchestva-parka/index.html">Преимущества
-                                        парка</a>
-                                    <span class="aside__link active">Регистрация резидентов</span>
-                                    <a class="aside__link" href="https://onestation.by/">Одна станция</a>
-                                    <a class="aside__link" href="../faq/index.html">Часто задаваемые вопросы</a>
-                                    <a class="aside__link" href="../uslugi/index.html">Услуги для инвесторов</a>
-                                    <a class="aside__link" href="../land_plots/index.html">Земельные участки</a>
-                                    <a class="aside__link" href="../industrial_premises/index.html">Производственные,
-                                        офисные и жилые помещения</a>
-                                    <a class="aside__link" href="../financial_support/index.html">Дополнительная
-                                        информация</a>
-                                    <a class="aside__link" href="../inzhiniringovye-uslugi/index.html">Инжиниринговые
-                                        услуги</a>
-                                    <a class="aside__link" href="../../innovatsionnyy-tsentr/index.html">Инновационный
-                                        центр</a>
-                                </nav>
-
-
-                            </aside>
                         </div>
 
                         <div class="col-12 col-xl-8">
