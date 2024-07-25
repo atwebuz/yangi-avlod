@@ -80,6 +80,102 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="services">
+                        <div class="section-title">Приоритетные направления</div>
+
+                        <div class="services__list row">
+
+                            <div class="col-lg-12">
+                                <div class="mini-card" id="bx_1967836421_16780">
+                                    <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
+                                            <img class="lazy-img custom_images"
+                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                data-src="{{asset('front-assets/images/about/1.jpg')}}"
+                                                alt="Наличие таможенного логистического центра">
+                                        </span>
+                                    </div>
+                                    <div class="mini-card__body">
+                                        <div class="mini-card__title">Наличие таможенного логистического центра </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="mini-card" id="bx_1967836421_16781">
+                                    <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
+                                            <img class="lazy-img custom_images"
+                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                data-src="{{asset('front-assets/images/about/7.jpg')}}"
+
+                                                alt="Расположение в черте города">
+                                        </span>
+                                    </div>
+                                    <div class="mini-card__body">
+                                        <div class="mini-card__title">Расположение в черте города</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="mini-card" id="bx_1967836421_16782">
+                                    <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
+                                            <img class="lazy-img custom_images"
+                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                data-src="{{asset('front-assets/images/about/2.jpg')}}"
+                                                alt="Легкий доступ к магистральным дорогам">
+                                        </span>
+                                    </div>
+                                    <div class="mini-card__body">
+                                        <div class="mini-card__title">Легкий доступ к магистральным дорогам</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="mini-card" id="bx_1967836421_16783">
+                                    <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
+                                            <img class="lazy-img custom_images"
+                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                data-src="{{asset('front-assets/images/about/8.jpg')}}"
+                                                alt="Высококвалифицированный персонал ">
+                                        </span>
+                                    </div>
+                                    <div class="mini-card__body">
+                                        <div class="mini-card__title">Высококвалифицированный персонал </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="mini-card" id="bx_1967836421_16784">
+                                    <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
+                                            <img class="lazy-img custom_images"
+                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                data-src="{{asset('front-assets/images/about/3.jpg')}}"
+                                                alt="Развитая инфраструктура">
+                                        </span>
+                                    </div>
+                                    <div class="mini-card__body">
+                                        <div class="mini-card__title">Развитая инфраструктура </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="mini-card" id="bx_1967836421_16785">
+                                    <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
+                                            <img class="lazy-img custom_images"
+                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                data-src="{{asset('front-assets/images/about/9.jpg')}}"
+                                                alt="Государственная поддержка резидентов">
+                                        </span>
+                                    </div>
+                                    <div class="mini-card__body">
+                                        <div class="mini-card__title">Государственная поддержка резидентов </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+
+                        </div>
+                    </div>
                     <br>
                     <br>
                     {{-- <div class="advatages-list">
