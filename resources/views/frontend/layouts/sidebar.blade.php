@@ -190,7 +190,7 @@
                     <div class="header-search-container container">
                       <form
                         class="header-search-form"
-                        action="https://industrialpark.by/search/"
+                        {{-- action="https://industrialpark.by/search/" --}}
                         method="get"
                         onsubmit="var str=document.getElementById('s-inp'); if (!str.value || str.value == str.title) return false;"
                       >
