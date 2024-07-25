@@ -7,6 +7,7 @@
     <style>
         .section-margin {
             margin-top: 20px; /* Adjust margin as needed */
+            padding-bottom: 50px;
         }
 
         .list-unstyled {
