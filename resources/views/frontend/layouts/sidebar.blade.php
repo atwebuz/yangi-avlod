@@ -197,63 +197,8 @@
                                 </ul>
                             </div>
                         </li>
-                        {{-- <li class="nav-item   ">
-
-                            <a class="nav-link " href="/rezidenty/" aria-label="Резиденты">
-                                Резиденты </a>
-                        </li> --}}
-                        <li class="nav-item   has-nav">
-
-                            <a class="nav-link " href="/novosti/" aria-label="Новости">
-                                Новости <span class="nav-toggle js-nav-toggle"></span>
-                            </a>
-                            <div class="js-nav nav-lvl2 ">
-                                <ul class="nav-lvl2-list">
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/novosti/2024/">2024</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/novosti/2023/">2023</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/novosti/2022/">2022</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/novosti/2021/">2021</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/novosti/2020/">2020</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/novosti/2019/">2019</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/novosti/2018/">2018</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/novosti/2017/">2017</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/novosti/2016/">2016</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/novosti/2015/">2015</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/novosti/2014/">2014</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/novosti/2013/">2013</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/novosti/2012/">2012</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/novosti/2011/">2011</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
+            
+                 
                         <li class="nav-item   ">
 
                             <a class="nav-link " href="/normativnye-dokumenty/" aria-label="Правовое регулирование">
@@ -291,25 +236,15 @@
                     <div class="js-nav nav">
                         <ul class="nav-list">
                             <li class="nav-item">
-                                <a class="nav-link" href="tel:+375 17 591 19 00" aria-label="+375 17 591 19 00"><span
-                                        class="nav-item-name">+375 17 591 19 00</span>
+                                <a class="nav-link" href="tel:+998909616226" aria-label="+998 90 961 62 26"><span
+                                        class="nav-item-name">+998 90 961 62 26</span>
                                 </a>
                             </li>
+                           
                             <li class="nav-item">
-                                <a class="nav-link" href="tel:+375 29 314 34 22" aria-label="+375 29 314 34 22"><span
-                                        class="nav-item-name">+375 29 314 34 22</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="tel:+375 17  591 19 00 (факс)"
-                                    aria-label="+375 17  591 19 00 (факс)"><span class="nav-item-name">+375 17 591 19
-                                        00 (факс)</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="mailto:welcome@industrialpark.by"
-                                    aria-label="welcome@industrialpark.by"><span
-                                        class="nav-item-name">welcome@industrialpark.by</span>
+                                <a class="nav-link" href="yangiavlodzone@gmail.com"
+                                    aria-label="yangiavlodzone@gmail.com"><span
+                                        class="nav-item-name">yangiavlodzone@gmail.com</span>
                                 </a>
                             </li>
                         </ul>
@@ -319,49 +254,73 @@
                     <div class="mob-menu-social-item">
                         <!--Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/components-template/social/style.css");-->
                         <div class="social">
-                            <div class="social-title">Администрация:</div>
-                            <div class="social-list"><a class="social-item" href="#" aria-label="vkontakte">
-                                    <svg class="icon" style="width:30px;height:30px;">
-                                        <use xlink:href="/local/templates/html/images/sprite.svg#fb"></use>
-                                    </svg></a><a class="social-item" href="#" aria-label="facebook">
-                                    <svg class="icon" style="width:30px;height:30px;">
-                                        <use xlink:href="/local/templates/html/images/sprite.svg#in"></use>
-                                    </svg></a><a class="social-item" href="#" aria-label="odnoklasniki">
-                                    <svg class="icon" style="width:30px;height:30px;">
-                                        <use xlink:href="/local/templates/html/images/sprite.svg#ig"></use>
-                                    </svg></a><a class="social-item" href="#" aria-label="instagram">
-                                    <svg class="icon" style="width:30px;height:30px;">
-                                        <use xlink:href="/local/templates/html/images/sprite.svg#tw"></use>
-                                    </svg></a><a class="social-item" href="#" aria-label="youtube">
-                                    <svg class="icon" style="width:30px;height:30px;">
-                                        <use xlink:href="/local/templates/html/images/sprite.svg#ut"></use>
-                                    </svg></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mob-menu-social-item">
-                        <!--Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/components-template/social/style.css");-->
-                        <div class="social">
                             <div class="social-title">Компания по развитию:</div>
-                            <div class="social-list"><a class="social-item" href="#" aria-label="vkontakte">
-                                    <svg class="icon" style="width:30px;height:30px;">
-                                        <use xlink:href="/local/templates/html/images/sprite.svg#fb"></use>
-                                    </svg></a><a class="social-item" href="#" aria-label="facebook">
-                                    <svg class="icon" style="width:30px;height:30px;">
-                                        <use xlink:href="/local/templates/html/images/sprite.svg#in"></use>
-                                    </svg></a><a class="social-item" href="#" aria-label="odnoklasniki">
-                                    <svg class="icon" style="width:30px;height:30px;">
-                                        <use xlink:href="/local/templates/html/images/sprite.svg#ig"></use>
-                                    </svg></a><a class="social-item" href="#" aria-label="instagram">
-                                    <svg class="icon" style="width:30px;height:30px;">
-                                        <use xlink:href="/local/templates/html/images/sprite.svg#tw"></use>
-                                    </svg></a><a class="social-item" href="#" aria-label="youtube">
-                                    <svg class="icon" style="width:30px;height:30px;">
-                                        <use xlink:href="/local/templates/html/images/sprite.svg#ut"></use>
+                            <div class="social-list">
+                                <a class="social-item" target="_blank"
+                                    href="https://www.facebook.com/profile.php?id=61561858030826"
+                                    aria-label="vkontakte">
+                                    <svg class="icon" style="width: 30px; height: 30px">
+                                        <use xlink:href="{{asset('front-assets/local/templates/html/images/sprite.svg#fb')}}" />
                                     </svg></a>
+                                <a class="social-item" href="https://www.instagram.com/yangiavlodzone/"
+                                    aria-label="odnoklasniki">
+                                    <svg class="icon" style="width: 30px; height: 30px">
+                                        <use xlink:href="{{asset('front-assets/local/templates/html/images/sprite.svg#ig')}}" />
+                                    </svg></a>
+                                <a class="social-item" href="https://t.me/yourtelegramchannel"
+                                    aria-label="telegram"
+                                    style="
+                                    display: inline-flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    width: 30px;
+                                    height: 30px;
+                                    background-color: #0088cc;
+                                    border-radius: 50%;
+                                    text-align: center;
+                                ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                        viewBox="0 0 24 24" fill="white">
+                                        <path
+                                            d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zm5.493 8.58l-1.555 7.342c-.118.526-.426.655-.864.418l-2.39-1.764-1.153 1.111c-.127.127-.235.234-.481.234l.173-2.466 4.487-4.05c.196-.173-.042-.27-.303-.097l-5.545 3.492-2.391-.746c-.52-.164-.532-.52.108-.765l9.34-3.607c.432-.164.81.097.673.765z" />
+                                    </svg>
+                                </a>
+
+                                <a class="social-item" target="_blank" href="https://x.com/Yangiavlodzone"
+                                    aria-label="twitter"
+                                    style="
+                                display: inline-flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 30px;
+                                    height: 30px;
+                                    padding: 8px;
+                                background-color: #0088cc; /* Twitter Blue */
+                                border-radius: 50%;
+                                text-align: center;
+                                ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="white" style="vertical-align: middle;">
+                                        <path
+                                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                        </path>
+                                    </svg>
+                                </a>
+
+
+
+
+                                <a class="social-item" href="https://www.youtube.com/@yangiavlodzone"
+                                    aria-label="youtube">
+                                    <svg class="icon" style="width: 30px; height: 30px">
+                                        <use xlink:href="{{asset('front-assets/local/templates/html/images/sprite.svg#ut')}}" />
+                                    </svg>
+                                </a>
+                        
                             </div>
                         </div>
                     </div>
+                
                 </div><a class="btn btn--dark btn--large w-100p" href="#" aria-label="Стать резидентом">Стать
                     резидентом</a>
             </div>

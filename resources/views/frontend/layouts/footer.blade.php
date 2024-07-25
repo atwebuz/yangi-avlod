@@ -157,7 +157,7 @@
                                      
                                         <li class="nav-item">
                                             <a class="nav-link" href="tel:+998909616226"
-                                                aria-label="++998 90 961 62 26"><span class="nav-item-name">+998 90 961 62 26</span>
+                                                aria-label="+998 90 961 62 26"><span class="nav-item-name">+998 90 961 62 26</span>
                                             </a>
                                         </li>
                                         <li class="nav-item">
@@ -198,15 +198,15 @@
                                     <a class="social-item" href="https://t.me/yourtelegramchannel"
                                         aria-label="telegram"
                                         style="
-                        display: inline-flex;
-                        align-items: center;
-                        justify-content: center;
-                        width: 30px;
-                        height: 30px;
-                        background-color: #0088cc;
-                        border-radius: 50%;
-                        text-align: center;
-                      ">
+                                        display: inline-flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        width: 30px;
+                                        height: 30px;
+                                        background-color: #0088cc;
+                                        border-radius: 50%;
+                                        text-align: center;
+                                    ">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                             viewBox="0 0 24 24" fill="white">
                                             <path
@@ -217,16 +217,16 @@
                                     <a class="social-item" target="_blank" href="https://x.com/Yangiavlodzone"
                                         aria-label="twitter"
                                         style="
-                      display: inline-flex;
-                      align-items: center;
-                      justify-content: center;
-                      width: 30px;
-                        height: 30px;
-                        padding: 8px;
-                      background-color: #0088cc; /* Twitter Blue */
-                      border-radius: 50%;
-                      text-align: center;
-                    ">
+                                    display: inline-flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    width: 30px;
+                                        height: 30px;
+                                        padding: 8px;
+                                    background-color: #0088cc; /* Twitter Blue */
+                                    border-radius: 50%;
+                                    text-align: center;
+                                    ">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="white" style="vertical-align: middle;">
                                             <path
