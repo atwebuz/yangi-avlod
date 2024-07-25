@@ -65,13 +65,13 @@
                         <div class="section-margin">
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="https://lex.uz/ru/docs/4737514" target="_blank">Закон «О специальных экономических зонах» от 17.02.2020г. №ЗРУ-604 <span style="color: blue">(Открыт)</span></a>
+                                    <a href="https://lex.uz/ru/docs/4737514" target="_blank">Закон «О специальных экономических зонах» от 17.02.2020г. №ЗРУ-604 <span style="color: blue">(Открыть)</span></a>
                                 </li>
                                 <li>
-                                    <a href="https://lex.uz/ru/pdfs/6846309" target="_blank">ПП «О создании промышленной зоны Янги Авлод в г. Ташкенте» от 20.03.2024г. №138 <span style="color: blue">(Открыт)</span></a>
+                                    <a href="https://lex.uz/ru/pdfs/6846309" target="_blank">ПП «О создании промышленной зоны Янги Авлод в г. Ташкенте» от 20.03.2024г. №138 <span style="color: blue">(Открыть)</span></a>
                                 </li>
                                 <li>
-                                    <a href="https://lex.uz/docs/6598337" target="_blank">ПКМ «Об утверждении административного регламента оказания государственных услуг инвесторам на территории специальных экономических зон» от 07.09.2023г. №452 <span style="color: blue">(Открыт)</span></a>
+                                    <a href="https://lex.uz/docs/6598337" target="_blank">ПКМ «Об утверждении административного регламента оказания государственных услуг инвесторам на территории специальных экономических зон» от 07.09.2023г. №452 <span style="color: blue">(Открыть)</span></a>
                                 </li>
                             </ul>
                         </div>
