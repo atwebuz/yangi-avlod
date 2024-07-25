@@ -31,7 +31,9 @@
                                     жилые помещения</a>
                                 <a class="aside__link" href="../financial_support/index.html">Дополнительная информация</a>
                                 <a class="aside__link" href="../inzhiniringovye-uslugi/index.html">Инжиниринговые услуги</a>
-                                <a class="aside__link" href="https://industrialpark.by/innovatsionnyy-tsentr/index.html">Инновационный центр</a>
+                                <a class="aside__link"
+                                    href="https://industrialpark.by/innovatsionnyy-tsentr/index.html">Инновационный
+                                    центр</a>
                             </nav>
 
 
@@ -46,8 +48,9 @@
                                     <ul class="breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
                                         <li class="breadcrumb__item " itemprop="itemListElement" itemscope
                                             itemtype="http://schema.org/ListItem">
-                                            <a class="breadcrumb___link" itemprop="item" href="https://industrialpark.by/index.html"
-                                                title="Главная"><span itemprop="name">Главная</span></a>
+                                            <a class="breadcrumb___link" itemprop="item"
+                                                href="https://industrialpark.by/index.html" title="Главная"><span
+                                                    itemprop="name">Главная</span></a>
                                             <meta itemprop="position" content="1" />
                                         </li>
                                         <li class="breadcrumb__item " itemprop="itemListElement" itemscope
@@ -74,11 +77,20 @@
 
                         <style>
                             .tariffs .tariffs-content {
-                            grid-template-columns: repeat(3, 1fr) !important;
-                   
-                        }
+                                grid-template-columns: repeat(3, 1fr) !important;
+                            }
+
+                            .tariffs .tariffs-content__card {
+                                min-height: 300px !important;
+
+                            }
+
+                            .card__text_title {
+                                font-size: 24px !important;
+
+                            }
                         </style>
-                        
+
 
                         <div class="page-header-container">
 
@@ -88,97 +100,89 @@
 
                                     <section class="tariffs">
                                         <div class="tariffs-content">
-
                                             <div class="tariffs-content__card">
-                                                <span class="lazy-img-wrap tariff-card__wrap"> <img alt="img"
+                                                <span class="lazy-img-wrap tariff-card__wrap">
+                                                    <img alt="img"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                         class="lazy-img"
-                                                        data-src="{{asset('front-assets/local/templates/html/images/tariffs_1.png')}}"></span>
-                                                <div class="tariffs-card__text">
-                                                    Техническое обслуживание производственных корпусов
+                                                        data-src="{{ asset('front-assets/local/templates/html/images/tariffs_1.png') }}">
+                                                </span>
+                                                <div class="tariffs-card__text card__text_title">
+                                                    Покрытие по внедрению международных стандартов и сертификатов
                                                 </div>
                                                 <div class="tariffs-card__text">
-                                                    1$ / <span class="with-squaremeter">1м</span>
+                                                    100%
                                                 </div>
                                             </div>
                                             <div class="tariffs-content__card">
-                                                <span class="lazy-img-wrap tariff-card__wrap"> <img alt="img"
+                                                <span class="lazy-img-wrap tariff-card__wrap">
+                                                    <img alt="img"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                         class="lazy-img"
-                                                        data-src="{{asset('front-assets/local/templates/html/images/tariffs_2.png')}}"></span>
-                                                <div class="tariffs-card__text">
-                                                    Водоснабжение
+                                                        data-src="{{ asset('front-assets/local/templates/html/images/tariffs_2.png') }}">
+                                                </span>
+                                                <div class="tariffs-card__text card__text_title">
+                                                    Компенсация за презентации и рекламу
                                                 </div>
-                                                <span class="lazy-img-wrap tariff-card__icon"> <img alt="img"
+                                                <div class="tariffs-card__text">
+                                                    100%
+                                                </div>
+                                            </div>
+                                            <div class="tariffs-content__card ">
+                                                <span class="lazy-img-wrap tariff-card__wrap">
+                                                    <img alt="img"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                         class="lazy-img"
-                                                        data-src="{{asset('front-assets/local/templates/html/images/water-energy.svg')}}"></span>
+                                                        data-src="{{ asset('front-assets/local/templates/html/images/tariffs_3.png') }}">
+                                                </span>
+                                                <div class="tariffs-card__text card__text_title">
+                                                    Компенсация расходов на участие в международных тендерах и конкурсах
+                                                </div>
                                                 <div class="tariffs-card__text">
-                                                    2,89 BYN&nbsp;/ <span class="with-cubemeter">1м</span>
+                                                    100%
                                                 </div>
                                             </div>
                                             <div class="tariffs-content__card">
-                                                <span class="lazy-img-wrap tariff-card__wrap"> <img alt="img"
+                                                <span class="lazy-img-wrap tariff-card__wrap">
+                                                    <img alt="img"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                         class="lazy-img"
-                                                        data-src="{{asset('front-assets/local/templates/html/images/tariffs_3.png')}}"></span>
-                                                <div class="tariffs-card__text">
-                                                    Водоотведение
+                                                        data-src="{{ asset('front-assets/local/templates/html/images/tariffs_4.png') }}">
+                                                </span>
+                                                <div class="tariffs-card__text card__text_title">
+                                                    Компенсация расходов на регистрацию продукции в иностранных компетентных
+                                                    органах
                                                 </div>
-                                                <span class="lazy-img-wrap tariff-card__icon"> <img alt="img"
-                                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                        class="lazy-img"
-                                                        data-src="{{asset('front-assets/local/templates/html/images/water-pollution.svg')}}"></span>
                                                 <div class="tariffs-card__text">
-                                                    2,89 BYN&nbsp;/ <span class="with-cubemeter">1м</span>
-                                                </div>
-                                            </div>
-                                            <div class="tariffs-content__card">
-                                                <span class="lazy-img-wrap tariff-card__wrap"> <img alt="img"
-                                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                        class="lazy-img"
-                                                        data-src="{{asset('front-assets/local/templates/html/images/tariffs_4.png')}}"></span>
-                                                <div class="tariffs-card__text">
-                                                    Электроэнергия
-                                                </div>
-                                                <span class="lazy-img-wrap tariff-card__icon"> <img alt="img"
-                                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                        class="lazy-img"
-                                                        data-src="{{asset('front-assets/local/templates/html/images/electric-pole.svg')}}"></span>
-                                                <div class="tariffs-card__text">
-                                                    0,33036 BYN&nbsp;/ 1кВт
+                                                    50%
                                                 </div>
                                             </div>
                                             <div class="tariffs-content__card">
-                                                <span class="lazy-img-wrap tariff-card__wrap"> <img alt="img"
+                                                <span class="lazy-img-wrap tariff-card__wrap">
+                                                    <img alt="img"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                         class="lazy-img"
-                                                        data-src="{{asset('front-assets/local/templates/html/images/tariffs_5.png')}}"></span>
-                                                <div class="tariffs-card__text">
-                                                    Газ
+                                                        data-src="{{ asset('front-assets/local/templates/html/images/tariffs_5.png') }}">
+                                                </span>
+                                                <div class="tariffs-card__text card__text_title">
+                                                    Компенсация расходов участников бизнесфорумов и торговых миссий
                                                 </div>
-                                                <span class="lazy-img-wrap tariff-card__icon"> <img alt="img"
-                                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                        class="lazy-img"
-                                                        data-src="{{asset('front-assets/local/templates/html/images/valve.svg')}}"></span>
                                                 <div class="tariffs-card__text">
-                                                    0,4383 BYN&nbsp;/ <span class="with-cubemeter">1м</span>
+                                                    100%
                                                 </div>
                                             </div>
                                             <div class="tariffs-content__card">
-                                                <span class="lazy-img-wrap tariff-card__wrap"> <img alt="img"
+                                                <span class="lazy-img-wrap tariff-card__wrap">
+                                                    <img alt="img"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                         class="lazy-img"
-                                                        data-src="{{asset('front-assets/local/templates/html/images/tariffs_6.png')}}"></span>
-                                                <div class="tariffs-card__text">
-                                                    Теплоэнергия
+                                                        data-src="{{ asset('front-assets/local/templates/html/images/tariffs_6.png') }}">
+                                                </span>
+                                                <div class="tariffs-card__text card__text_title">
+                                                    Компенсация расходов на участие в выставочных мероприятиях
                                                 </div>
-                                                <span class="lazy-img-wrap tariff-card__icon"> <img alt="img"
-                                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                        class="lazy-img"
-                                                        data-src="{{asset('front-assets/local/templates/html/images/nuclear-plant.svg')}}"></span>
                                                 <div class="tariffs-card__text">
-                                                    48,02 BYN / 1Гкал
+                                                    100%
                                                 </div>
                                             </div>
                                         </div>
