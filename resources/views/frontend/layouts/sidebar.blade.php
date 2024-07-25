@@ -67,14 +67,14 @@
                         <li class="nav-lvl2-item">
                           <a
                             class="nav-lvl2-link"
-                            href="investoram/registratsiya-rezidentov/index.html"
+                            href="{{route('frontend.investoram_registratsiya_rezidentov')}}"
                             >Регистрация резидентов</a
                           >
                         </li>
                         <li class="nav-lvl2-item">
                           <a
                             class="nav-lvl2-link"
-                            href="#/"
+                            href="{{route('frontend.investoram_nalogovie_preferensi')}}"
                             >Налоговые преференции </a
                           >
                         </li>

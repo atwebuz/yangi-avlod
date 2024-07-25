@@ -194,4 +194,5 @@ Route::get('/',[FrontendController::class, 'home'])->name('frontend.home');
 Route::get('/about',[FrontendController::class, 'about'])->name('frontend.about');
 Route::get('/investoram/premushastva',[FrontendController::class, 'investoram_premushastva'])->name('frontend.investoram_premushastva');
 Route::get('/investoram/registratsiya/rezidentov',[FrontendController::class, 'investoram_registratsiya_rezidentov'])->name('frontend.investoram_registratsiya_rezidentov');
+Route::get('/investoram/nalogovie/preferensi',[FrontendController::class, 'investoram_nalogovie_preferensi'])->name('frontend.investoram_nalogovie_preferensi');
 
