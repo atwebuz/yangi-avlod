@@ -373,7 +373,7 @@
                         <div class="doc-accordions">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-xl-8 offset-xl-3">
+                                    <div class="col-xl-12">
                                         <div class="contact-box">
                                             <div class="contact-box__title">По всем вопросам, связанным с регистрацией в
                                                 парке, пожалуйста, обращайтесь по телефонам:
