@@ -81,7 +81,7 @@
                         <li class="nav-lvl2-item">
                           <a
                             class="nav-lvl2-link"
-                            href="investoram/faq/index.html"
+                            href="{{route('frontend.investoram_podderjka_eksportov')}}"
                             >Поддержка экспортёров
                             </a
                           >

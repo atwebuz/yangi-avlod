@@ -21,4 +21,7 @@ class FrontendController extends Controller
     public function investoram_nalogovie_preferensi(){
         return view('frontend.pages.investoram.nalogovie_preferensi');
     }
+    public function investoram_podderjka_eksportov(){
+        return view('frontend.pages.investoram.podderjka_exportov');
+    }
 }
