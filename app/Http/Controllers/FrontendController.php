@@ -12,4 +12,7 @@ class FrontendController extends Controller
     public function about(){
         return view('frontend.pages.about');
     }
+    public function investoram_premushastva(){
+        return view('frontend.pages.investoram.premushastva');
+    }
 }
