@@ -43,46 +43,26 @@
                         </div>
 
                         <div class="contact-tabs">
-                            <div class="contact-tabs__nav">
-                                <div class="nav-tabs-wrap">
-                                    <ul class="nav nav-tabs" role="tablist">
-                                        <li class="nav-item" id="bx_3218110189_16825">
-                                            <div class="nav-link active" id="ID16825" data-toggle="tab"
-                                                data-target="#ID-16825" role="tab" aria-selected="true">Администрация
-                                                парка</div>
-                                        </li>
-                                      
-                                    </ul>
-                                </div>
-                            </div>
+                           
                             <div class="contact-tabs__body">
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="ID-16825" role="tabpanel">
                                         <div class="contacts-table">
                                             <div class="contacts-table__header">
                                                 <div class="contacts-table__header-title">
-                                                    Администрация индустриального парка
+                                                    Администрация промышленной зоны
                                                 </div>
-                                                <div class="contacts-table__file">
-                                                    <!--Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/components-template/file/style.css");--><a
-                                                        class="file"
-                                                        href="../upload/%d0%90%d0%b4%d0%bc%d0%b8%d0%bd%d0%b8%d1%81%d1%82%d1%80%d0%b0%d1%86%d0%b8%d1%8f.docx"
-                                                        download="requisites" aria-label="Скачать файл"> <img
-                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                            class="file-img lazy-img"
-                                                            data-src="../local/templates/html/images/doc.svg"><span
-                                                            class="file-name">Скачать реквизиты</span></a>
-                                                </div>
+                                            
                                             </div>
                                             <div class="contacts-table__body">
                                                 <div class="contacts-table__row">
                                                     <div class="contacts-table__colname">
                                                         <div class="contacts-table__title">
-                                                            Приемная (тел/факс)
+                                                            Приемная (тел)
                                                         </div>
                                                     </div>
                                                     <div class="contacts-table__colvalue">
-                                                        <a href="tel:+375175172875">+375 (17) 517-28-75 (факс)</a>
+                                                        <a href="tel:+998771512414">+998 (77) 151-24-14 </a>
                                                     </div>
                                                 </div>
                                                 <div class="contacts-table__row">
@@ -93,59 +73,15 @@
                                                     </div>
                                                     <div class="contacts-table__colvalue">
                                                         <a
-                                                            href="mailto:administration@greatstonepark.by">administration@greatstonepark.by</a>
+                                                            href="mailto:yangiavlodzone@gmail.com">yangiavlodzone@gmail.com</a>
                                                     </div>
                                                 </div>
-                                                <div class="contacts-table__row">
-                                                    <div class="contacts-table__colname">
-                                                        <div class="contacts-table__subtitle">
-                                                            Глава администрации
-                                                        </div>
-                                                        <div class="contacts-table__title">
-                                                            Ярошенко Александр Григорьевич
-                                                        </div>
-                                                    </div>
-                                                    <div class="contacts-table__colvalue">
-                                                        <a href="tel:+375175172875">+375 (17) 517-28-75</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="contacts-table__row">
-                                                <div class="contacts-table__colname">
-                                                    <div class="contacts-table__subtitle">
-                                                        Первый заместитель главы администрации
-                                                    </div>
-                                                    <div class="contacts-table__title">
-                                                        Якимов Петр Николаевич
-                                                    </div>
-                                                </div>
-                                                <div class="contacts-table__colvalue">
-                                                    <a href="tel:+375175172891">+375 (17) 517-28-91</a>
-                                                </div>
-                                            </div>
-                                            <div class="contacts-table__row">
-                                                <div class="contacts-table__colname">
-                                                    <div class="contacts-table__subtitle">
-                                                        Заместитель главы администрации
-                                                    </div>
-                                                    <div class="contacts-table__title">
-                                                        Табанюхов Олег Михайлович
-                                                    </div>
-                                                </div>
-                                                <div class="contacts-table__colvalue">
-                                                    <a href="tel:+375175173802">+375 (17) 517-38-02</a>
-                                                </div>
+                                               
                                             </div>
                                           
+                                          
                                         </div>
-                                        <a class="file"
-                                            href="../upload/%d0%a1%d0%be%d0%b2%d0%bc%d0%b5%d1%81%d1%82%d0%bd%d0%b0%d1%8f%20%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d1%8f.docx"
-                                            download="requisites" aria-label="Скачать файл"> <img
-                                                src="../local/templates/html/images/doc.svg"
-                                                class="file-img lazy-img loaded"
-                                                data-src="/local/templates/html/images/doc.svg"
-                                                data-was-processed="true"><span class="file-name">Скачать
-                                                реквизиты</span></a>
+                                      
                                     </div>
                                 </div>
 

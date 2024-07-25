@@ -108,7 +108,7 @@
                                 {{-- <a class="btn btn--dark header-control-btn" href="https://uzbekistan360.uz/"
                                     target="_blank" aria-label="3D ТУР">3D ТУР</a> --}}
                                 <a class="btn btn--dark header-control-btn"
-                                    href="investoram/registratsiya-rezidentov/index.html" aria-label="Стать резидентом"
+                                    href="{{route('frontend.investoram_registratsiya_rezidentov')}}" aria-label="Стать резидентом"
                                     target="_blank">Стать резидентом</a>
                             </div>
                             <br />
