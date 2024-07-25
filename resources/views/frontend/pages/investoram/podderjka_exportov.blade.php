@@ -6,6 +6,11 @@
     <link
         href="{{ asset('bitrix/cache/css/s1/html/template_6a79ccc7eb994082f6ac4993af815063/template_6a79ccc7eb994082f6ac4993af815063_v1.css') }}"
         media="all" as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'" />
+        <style>
+            .custom_expert_images{
+            height: 350px !important;
+            }
+        </style>
     <main class="main">
 
         <div class="no-critical no-critical--preloader">
@@ -98,8 +103,8 @@
                                                 <span class="lazy-img-wrap tariff-card__wrap">
                                                     <img alt="img"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                        class="lazy-img"
-                                                        data-src="{{ asset('front-assets/local/templates/html/images/tariffs_1.png') }}">
+                                                        class="lazy-img custom_expert_images"
+                                                        data-src="{{ asset('front-assets/images/expert/1.png') }}">
                                                 </span>
                                                 <div class="tariffs-card__text card__text_title">
                                                     Покрытие по внедрению международных стандартов и сертификатов
@@ -112,8 +117,8 @@
                                                 <span class="lazy-img-wrap tariff-card__wrap">
                                                     <img alt="img"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                        class="lazy-img"
-                                                        data-src="{{ asset('front-assets/local/templates/html/images/tariffs_2.png') }}">
+                                                        class="lazy-img custom_expert_images"
+                                                        data-src="{{ asset('front-assets/images/expert/2.png') }}">
                                                 </span>
                                                 <div class="tariffs-card__text card__text_title">
                                                     Компенсация за презентации и рекламу
@@ -126,8 +131,8 @@
                                                 <span class="lazy-img-wrap tariff-card__wrap">
                                                     <img alt="img"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                        class="lazy-img"
-                                                        data-src="{{ asset('front-assets/local/templates/html/images/tariffs_3.png') }}">
+                                                        class="lazy-img custom_expert_images"
+                                                        data-src="{{ asset('front-assets/images/expert/3.png') }}">
                                                 </span>
                                                 <div class="tariffs-card__text card__text_title">
                                                     Компенсация расходов на участие в международных тендерах и конкурсах
@@ -140,8 +145,8 @@
                                                 <span class="lazy-img-wrap tariff-card__wrap">
                                                     <img alt="img"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                        class="lazy-img"
-                                                        data-src="{{ asset('front-assets/local/templates/html/images/tariffs_4.png') }}">
+                                                        class="lazy-img custom_expert_images"
+                                                        data-src="{{ asset('front-assets/images/expert/4.png') }}">
                                                 </span>
                                                 <div class="tariffs-card__text card__text_title">
                                                     Компенсация расходов на регистрацию продукции в иностранных компетентных
@@ -155,8 +160,8 @@
                                                 <span class="lazy-img-wrap tariff-card__wrap">
                                                     <img alt="img"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                        class="lazy-img"
-                                                        data-src="{{ asset('front-assets/local/templates/html/images/tariffs_5.png') }}">
+                                                        class="lazy-img custom_expert_images"
+                                                        data-src="{{ asset('front-assets/images/expert/5.png') }}">
                                                 </span>
                                                 <div class="tariffs-card__text card__text_title">
                                                     Компенсация расходов участников бизнесфорумов и торговых миссий
@@ -169,8 +174,8 @@
                                                 <span class="lazy-img-wrap tariff-card__wrap">
                                                     <img alt="img"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                        class="lazy-img"
-                                                        data-src="{{ asset('front-assets/local/templates/html/images/tariffs_6.png') }}">
+                                                        class="lazy-img custom_expert_images"
+                                                        data-src="{{ asset('front-assets/images/expert/6.png') }}">
                                                 </span>
                                                 <div class="tariffs-card__text card__text_title">
                                                     Компенсация расходов на участие в выставочных мероприятиях
