@@ -15,4 +15,7 @@ class FrontendController extends Controller
     public function investoram_premushastva(){
         return view('frontend.pages.investoram.premushastva');
     }
+    public function investoram_registratsiya_rezidentov(){
+        return view('frontend.pages.investoram.registratsiya_rezidentov');
+    }
 }
