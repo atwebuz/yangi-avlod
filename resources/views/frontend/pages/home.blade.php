@@ -1012,6 +1012,12 @@
                             alt="China National Machinery Industry Corporation (Sinomach)" />
                     </a>
                     <a class="lazy-img-wrap partner-slide swiper-slide" target="_blank" href="#"
+                    aria-label>
+                    <img class="swiper-lazy partner-slide-img"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        data-src="{{asset('front-assets/images/logo/img3.png')}}" alt="YangiHayot" />
+                </a>
+                    <a class="lazy-img-wrap partner-slide swiper-slide" target="_blank" href="#"
                         aria-label>
                         <img class="swiper-lazy partner-slide-img"
                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
@@ -1027,10 +1033,12 @@
 
                     <a class="lazy-img-wrap partner-slide swiper-slide" target="_blank" href="#"
                         aria-label>
-                        <img class="swiper-lazy partner-slide-img"
+                        <img class="swiper-lazy partner-slide-img resize_logo" 
                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                            data-src="{{asset('front-assets/Logo.png')}}" alt="ОАО «Банк БелВЭБ»" />
+                            data-src="{{asset('front-assets/Logo.png')}}" alt="YangiAvlod»" />
                     </a>
+
+                  
                 </div>
             </div>
             <button class="swiper-button swiper-button-prev js-swiper-button-prev" type="button"

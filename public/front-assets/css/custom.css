@@ -3486,3 +3486,7 @@ h5 {
         bottom: -200px;
     }
 }
+
+.resize_logo {
+    width: 180px;
+}
