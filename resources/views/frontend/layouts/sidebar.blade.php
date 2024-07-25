@@ -62,11 +62,11 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="nav-item">
+                                {{-- <li class="nav-item">
                                     <a class="nav-link" href="rezidenty/index.html" aria-label="Резиденты">
                                         Резиденты
                                     </a>
-                                </li>
+                                </li> --}}
 
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('frontend.normativnie_documenti') }}"
@@ -168,95 +168,40 @@
                     <ul class="nav-list 22">
                         <li class="nav-item   has-nav">
 
-                            <a class="nav-link " href="/o-parke/" aria-label="О парке">
-                                О парке <span class="nav-toggle js-nav-toggle"></span>
+                            <a class="nav-link " href="{{ route('frontend.about') }}" aria-label="О нас">
+                                О нас
                             </a>
-                            <div class="js-nav nav-lvl2 ">
-                                <ul class="nav-lvl2-list">
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/o-parke/obshhaya-informaciya/">Общая
-                                            информация</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link"
-                                            href="/o-parke/prioritetnye-napravleniya/">Приоритетные направления</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/o-parke/struktura-upravleniya/">Структура
-                                            управления</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/o-parke/generalnyj-plan/">Генеральный план</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/o-parke/hod-stroitelstva/">Ход
-                                            строительства</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/o-parke/video-o-parke/">Видео о парке</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/o-parke/partnery/">Партнеры</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link"
-                                            href="/o-parke/obshchestvennoe-obsuzhdenie/">Общественные обсуждения</a>
-                                    </li>
-                                </ul>
-                            </div>
+
                         </li>
                         <li class="nav-item   has-nav">
 
-                            <a class="nav-link " href="/investoram/" aria-label="Инвесторам">
+                            <a class="nav-link " href="#!" aria-label="Инвесторам">
                                 Инвесторам <span class="nav-toggle js-nav-toggle"></span>
                             </a>
                             <div class="js-nav nav-lvl2 ">
                                 <ul class="nav-lvl2-list">
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link"
-                                            href="/investoram/preimushchestva-parka/">Преимущества парка</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link"
-                                            href="/investoram/registratsiya-rezidentov/">Регистрация резидентов</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="https://onestation.by/">Одна станция</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/investoram/faq/">Часто задаваемые вопросы</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/investoram/uslugi/">Услуги для инвесторов</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/investoram/land_plots/">Земельные участки</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link"
-                                            href="/investoram/industrial_premises/">Производственные, офисные и жилые
-                                            помещения</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/investoram/financial_support/">Дополнительная
-                                            информация</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link"
-                                            href="/investoram/inzhiniringovye-uslugi/">Инжиниринговые услуги</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/innovatsionnyy-tsentr/">Инновационный
-                                            центр</a>
-                                    </li>
+                                
+                                    <li class="nav-lvl2-item "><a class="nav-lvl2-link {{ request()->routeIs('frontend.investoram_premushastva') ? 'active' : '' }}"
+                                            href="{{ route('frontend.investoram_premushastva') }}">Преимущества
+                                            промышленной зоны</a></li>
+                                    <li class="nav-lvl2-item "><a class="nav-lvl2-link {{ request()->routeIs('frontend.investoram_registratsiya_rezidentov') ? 'active' : '' }}"
+                                            href="{{ route('frontend.investoram_registratsiya_rezidentov') }}">Регистрация
+                                            резидентов</a></li>
+                                    <li class="nav-lvl2-item "><a class="nav-lvl2-link {{ request()->routeIs('frontend.investoram_nalogovie_preferensi') ? 'active' : '' }}"
+                                            href="{{ route('frontend.investoram_nalogovie_preferensi') }}">Налоговые
+                                            преференции</a></li>
+                                    <li class="nav-lvl2-item "><a class="nav-lvl2-link {{ request()->routeIs('frontend.investoram_podderjka_eksportov') ? 'active' : '' }}"
+                                            href="{{ route('frontend.investoram_podderjka_eksportov') }}">Поддержка
+                                            экспортёров</a></li>
+                                  
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-item   ">
+                        {{-- <li class="nav-item   ">
 
                             <a class="nav-link " href="/rezidenty/" aria-label="Резиденты">
                                 Резиденты </a>
-                        </li>
+                        </li> --}}
                         <li class="nav-item   has-nav">
 
                             <a class="nav-link " href="/novosti/" aria-label="Новости">
