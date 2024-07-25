@@ -1,5 +1,24 @@
 @extends('frontend.layouts.admin')
 @section('frontend_content')
+<style>
+    .custom_images{
+        width: 200px;
+        height: 90px;
+    }
+    .mini-card{
+        display: flex;
+        align-items: center !important;
+
+    }
+    .mini-card__body {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px 10px 40px;
+        border: none !important;
+    transition: border-color .3s ease;
+}
+</style>
             <div class="no-critical no-critical--preloader">
                 <div class="container" data-sticky-container>
                     <div class="row">
@@ -66,9 +85,9 @@
                                         <div class="col-lg-6">
                                             <div class="mini-card" id="bx_1967836421_16780">
                                                 <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
-                                                        <img class="lazy-img"
+                                                        <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                            data-src="{{asset('front-assets/images/about/img1.jpg')}}"
+                                                            data-src="{{asset('front-assets/images/about/1.jpg')}}"
                                                             alt="Машиностроение">
                                                     </span>
                                                 </div>
@@ -80,9 +99,9 @@
                                         <div class="col-lg-6">
                                             <div class="mini-card" id="bx_1967836421_16781">
                                                 <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
-                                                        <img class="lazy-img"
+                                                        <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                            data-src="{{asset('front-assets/images/about/img7.jpg')}}"
+                                                            data-src="{{asset('front-assets/images/about/7.jpg')}}"
 
                                                             alt="Электроника и телекоммуникации">
                                                     </span>
@@ -95,9 +114,9 @@
                                         <div class="col-lg-6">
                                             <div class="mini-card" id="bx_1967836421_16782">
                                                 <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
-                                                        <img class="lazy-img"
+                                                        <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                            data-src="{{asset('front-assets/images/about/img2.jpg')}}"
+                                                            data-src="{{asset('front-assets/images/about/2.jpg')}}"
                                                             alt="Тонкая химия">
                                                     </span>
                                                 </div>
@@ -109,9 +128,9 @@
                                         <div class="col-lg-6">
                                             <div class="mini-card" id="bx_1967836421_16783">
                                                 <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
-                                                        <img class="lazy-img"
+                                                        <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                            data-src="{{asset('front-assets/images/about/img8.jpg')}}"
+                                                            data-src="{{asset('front-assets/images/about/8.jpg')}}"
                                                             alt="Биотехнологии">
                                                     </span>
                                                 </div>
@@ -123,9 +142,9 @@
                                         <div class="col-lg-6">
                                             <div class="mini-card" id="bx_1967836421_16784">
                                                 <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
-                                                        <img class="lazy-img"
+                                                        <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                            data-src="{{asset('front-assets/images/about/img3.jpg')}}"
+                                                            data-src="{{asset('front-assets/images/about/3.jpg')}}"
                                                             alt="Новые материалы">
                                                     </span>
                                                 </div>
@@ -137,9 +156,9 @@
                                         <div class="col-lg-6">
                                             <div class="mini-card" id="bx_1967836421_16785">
                                                 <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
-                                                        <img class="lazy-img"
+                                                        <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                            data-src="{{asset('front-assets/images/about/img9.jpg')}}"
+                                                            data-src="{{asset('front-assets/images/about/9.jpg')}}"
                                                             alt="Логистика">
                                                     </span>
                                                 </div>
@@ -151,9 +170,9 @@
                                         <div class="col-lg-6">
                                             <div class="mini-card" id="bx_1967836421_16786">
                                                 <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
-                                                        <img class="lazy-img"
+                                                        <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                            data-src="{{asset('front-assets/images/about/img4.jpg')}}"
+                                                            data-src="{{asset('front-assets/images/about/4.jpg')}}"
                                                             alt="Фармацевтика">
                                                     </span>
                                                 </div>
@@ -165,9 +184,9 @@
                                         <div class="col-lg-6">
                                             <div class="mini-card" id="bx_1967836421_16787">
                                                 <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
-                                                        <img class="lazy-img"
+                                                        <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                            data-src="{{asset('front-assets/images/about/img10.jpg')}}"
+                                                            data-src="{{asset('front-assets/images/about/10.jpg')}}"
                                                             alt="Электронная коммерция">
                                                     </span>
                                                 </div>
@@ -179,9 +198,9 @@
                                         <div class="col-lg-6">
                                             <div class="mini-card" id="bx_1967836421_16788">
                                                 <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
-                                                        <img class="lazy-img"
+                                                        <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                            data-src="{{asset('front-assets/images/about/img5.jpg')}}"
+                                                            data-src="{{asset('front-assets/images/about/5.jpg')}}"
                                                             alt="Хранение и обработка больших объемов данных">
                                                     </span>
                                                 </div>
@@ -194,9 +213,9 @@
                                         <div class="col-lg-6">
                                             <div class="mini-card" id="bx_1967836421_16789">
                                                 <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
-                                                        <img class="lazy-img"
+                                                        <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                            data-src="{{asset('front-assets/images/about/img11.jpg')}}"
+                                                            data-src="{{asset('front-assets/images/about/11.jpg')}}"
                                                             alt="Социально-культурная деятельность">
                                                     </span>
                                                 </div>
@@ -209,9 +228,9 @@
                                         <div class="col-lg-6">
                                             <div class="mini-card" id="bx_1967836421_16790">
                                                 <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
-                                                        <img class="lazy-img"
+                                                        <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                            data-src="{{asset('front-assets/images/about/img6.jpg')}}"
+                                                            data-src="{{asset('front-assets/images/about/6.jpg')}}"
                                                             alt="НИОКР">
                                                     </span>
                                                 </div>
@@ -223,9 +242,9 @@
                                         <div class="col-lg-6">
                                             <div class="mini-card" id="bx_1967836421_16791">
                                                 <div class="mini-card__pic blue-ovelay"><span class="lazy-img-wrap">
-                                                        <img class="lazy-img"
+                                                        <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                            data-src="{{asset('front-assets/images/about/img12.jpg')}}"
+                                                            data-src="{{asset('front-assets/images/about/12.jpg')}}"
                                                             alt="Производство медицинских изделий и оказание медицинских услуг">
                                                     </span>
                                                 </div>
