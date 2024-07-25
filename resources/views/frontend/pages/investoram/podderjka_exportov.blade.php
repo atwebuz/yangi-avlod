@@ -76,8 +76,11 @@
                         </div>
 
                         <style>
-                            .tariffs .tariffs-content {
-                                grid-template-columns: repeat(3, 1fr) !important;
+                        
+                            @media (max-width: 3850px) {
+                                .tariffs .tariffs-content {
+                                    grid-template-columns: repeat(3, 1fr);
+                                }
                             }
 
                             .tariffs .tariffs-content__card {
@@ -88,6 +91,20 @@
                             .card__text_title {
                                 font-size: 24px !important;
 
+                            }
+
+                         
+
+                            @media (max-width: 992px) {
+                                .tariffs .tariffs-content {
+                                    grid-template-columns: repeat(2, 1fr);
+                                }
+                            }
+
+                            @media (max-width: 768px) {
+                                .tariffs .tariffs-content {
+                                    grid-template-columns: repeat(1, 1fr) !important; 
+                                }
                             }
                         </style>
 
