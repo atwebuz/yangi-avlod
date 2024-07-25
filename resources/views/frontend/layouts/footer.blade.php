@@ -238,16 +238,18 @@
 
 
 
-                                    <a class="social-item" href="www.youtube.com/@yangiavlodzone"
+                                    <a class="social-item" href="https://www.youtube.com/@yangiavlodzone"
                                         aria-label="youtube">
                                         <svg class="icon" style="width: 30px; height: 30px">
                                             <use xlink:href="{{asset('front-assets/local/templates/html/images/sprite.svg#ut')}}" />
-                                        </svg></a>
-                                    <a class="social-item" href="https://www.linkedin.com/company/industrialpark/"
+                                        </svg>
+                                    </a>
+                                    {{-- <a class="social-item" href="https://www.linkedin.com/company/industrialpark/"
                                         aria-label="facebook">
                                         <svg class="icon" style="width: 30px; height: 30px">
                                             <use xlink:href="{{asset('front-assets/local/templates/html/images/sprite.svg#in')}}" />
-                                        </svg></a>
+                                        </svg>
+                                    </a> --}}
                                 </div>
                             </div>
                         </div>

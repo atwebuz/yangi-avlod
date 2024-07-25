@@ -60,7 +60,8 @@
                           <a
                             class="nav-lvl2-link"
                             href="investoram/preimushchestva-parka/index.html"
-                            >Преимущества парка</a
+                            >Преимущества промышленной зоны
+                            </a
                           >
                         </li>
                         <li class="nav-lvl2-item">
@@ -74,58 +75,18 @@
                           <a
                             class="nav-lvl2-link"
                             href="#/"
-                            >Одна станция</a
+                            >Налоговые преференции </a
                           >
                         </li>
                         <li class="nav-lvl2-item">
                           <a
                             class="nav-lvl2-link"
                             href="investoram/faq/index.html"
-                            >Часто задаваемые вопросы</a
+                            >Поддержка экспортёров
+                            </a
                           >
                         </li>
-                        <li class="nav-lvl2-item">
-                          <a
-                            class="nav-lvl2-link"
-                            href="investoram/uslugi/index.html"
-                            >Услуги для инвесторов</a
-                          >
-                        </li>
-                        <li class="nav-lvl2-item">
-                          <a
-                            class="nav-lvl2-link"
-                            href="investoram/land_plots/index.html"
-                            >Земельные участки</a
-                          >
-                        </li>
-                        <li class="nav-lvl2-item">
-                          <a
-                            class="nav-lvl2-link"
-                            href="investoram/industrial_premises/index.html"
-                            >Производственные, офисные и жилые помещения</a
-                          >
-                        </li>
-                        <li class="nav-lvl2-item">
-                          <a
-                            class="nav-lvl2-link"
-                            href="investoram/financial_support/index.html"
-                            >Дополнительная информация</a
-                          >
-                        </li>
-                        <li class="nav-lvl2-item">
-                          <a
-                            class="nav-lvl2-link"
-                            href="investoram/inzhiniringovye-uslugi/index.html"
-                            >Инжиниринговые услуги</a
-                          >
-                        </li>
-                        <li class="nav-lvl2-item">
-                          <a
-                            class="nav-lvl2-link"
-                            href="innovatsionnyy-tsentr/index.html"
-                            >Инновационный центр</a
-                          >
-                        </li>
+                      
                       </ul>
                     </div>
                   </li>
@@ -138,7 +99,7 @@
                       Резиденты
                     </a>
                   </li>
-                  <li class="nav-item">
+                  {{-- <li class="nav-item">
                     <a
                       class="nav-link"
                       href="novosti/index.html"
@@ -146,7 +107,7 @@
                     >
                       Новости
                     </a>
-                  </li>
+                  </li> --}}
                   <li class="nav-item">
                     <a
                       class="nav-link"
