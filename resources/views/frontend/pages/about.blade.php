@@ -10,6 +10,9 @@
         align-items: center !important;
 
     }
+    .mini-card__pic{
+        height: auto !important;
+    }
     .mini-card__body {
     display: flex;
     align-items: center;
@@ -92,7 +95,7 @@
                                                     </span>
                                                 </div>
                                                 <div class="mini-card__body">
-                                                    <div class="mini-card__title">Машиностроение </div>
+                                                    <div class="mini-card__title">Автомобилестроение </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -103,11 +106,11 @@
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                             data-src="{{asset('front-assets/images/about/7.jpg')}}"
 
-                                                            alt="Электроника и телекоммуникации">
+                                                            alt="Мебельная продукция">
                                                     </span>
                                                 </div>
                                                 <div class="mini-card__body">
-                                                    <div class="mini-card__title">Электроника и телекоммуникации </div>
+                                                    <div class="mini-card__title">Мебельная продукция</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -117,11 +120,11 @@
                                                         <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                             data-src="{{asset('front-assets/images/about/2.jpg')}}"
-                                                            alt="Тонкая химия">
+                                                            alt="Металлургия">
                                                     </span>
                                                 </div>
                                                 <div class="mini-card__body">
-                                                    <div class="mini-card__title">Тонкая химия </div>
+                                                    <div class="mini-card__title">Металлургия</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -131,11 +134,11 @@
                                                         <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                             data-src="{{asset('front-assets/images/about/8.jpg')}}"
-                                                            alt="Биотехнологии">
+                                                            alt="Бумажная продукция ">
                                                     </span>
                                                 </div>
                                                 <div class="mini-card__body">
-                                                    <div class="mini-card__title">Биотехнологии </div>
+                                                    <div class="mini-card__title">Бумажная продукция </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -145,11 +148,11 @@
                                                         <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                             data-src="{{asset('front-assets/images/about/3.jpg')}}"
-                                                            alt="Новые материалы">
+                                                            alt="Тяжелая промышленность">
                                                     </span>
                                                 </div>
                                                 <div class="mini-card__body">
-                                                    <div class="mini-card__title">Новые материалы </div>
+                                                    <div class="mini-card__title">Тяжелая промышленность </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -159,11 +162,11 @@
                                                         <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                             data-src="{{asset('front-assets/images/about/9.jpg')}}"
-                                                            alt="Логистика">
+                                                            alt="Электротехника">
                                                     </span>
                                                 </div>
                                                 <div class="mini-card__body">
-                                                    <div class="mini-card__title">Логистика </div>
+                                                    <div class="mini-card__title">Электротехника </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -173,11 +176,11 @@
                                                         <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                             data-src="{{asset('front-assets/images/about/4.jpg')}}"
-                                                            alt="Фармацевтика">
+                                                            alt="Легкая промышленность">
                                                     </span>
                                                 </div>
                                                 <div class="mini-card__body">
-                                                    <div class="mini-card__title">Фармацевтика </div>
+                                                    <div class="mini-card__title">Легкая промышленность </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -187,11 +190,11 @@
                                                         <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                             data-src="{{asset('front-assets/images/about/10.jpg')}}"
-                                                            alt="Электронная коммерция">
+                                                            alt="Фармацевтика">
                                                     </span>
                                                 </div>
                                                 <div class="mini-card__body">
-                                                    <div class="mini-card__title">Электронная коммерция </div>
+                                                    <div class="mini-card__title">Фармацевтика </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -201,12 +204,11 @@
                                                         <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                             data-src="{{asset('front-assets/images/about/5.jpg')}}"
-                                                            alt="Хранение и обработка больших объемов данных">
+                                                            alt="Пищевая промышленность">
                                                     </span>
                                                 </div>
                                                 <div class="mini-card__body">
-                                                    <div class="mini-card__title">Хранение и обработка больших объемов
-                                                        данных </div>
+                                                    <div class="mini-card__title">Пищевая промышленность </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -216,11 +218,11 @@
                                                         <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                             data-src="{{asset('front-assets/images/about/11.jpg')}}"
-                                                            alt="Социально-культурная деятельность">
+                                                            alt="Логистика">
                                                     </span>
                                                 </div>
                                                 <div class="mini-card__body">
-                                                    <div class="mini-card__title">Социально-культурная деятельность
+                                                    <div class="mini-card__title">Логистика
                                                     </div>
                                                 </div>
                                             </div>
@@ -231,11 +233,11 @@
                                                         <img class="lazy-img custom_images"
                                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                                                             data-src="{{asset('front-assets/images/about/6.jpg')}}"
-                                                            alt="НИОКР">
+                                                            alt="Строительные материалы">
                                                     </span>
                                                 </div>
                                                 <div class="mini-card__body">
-                                                    <div class="mini-card__title">НИОКР </div>
+                                                    <div class="mini-card__title">Строительные материалы </div>
                                                 </div>
                                             </div>
                                         </div>
