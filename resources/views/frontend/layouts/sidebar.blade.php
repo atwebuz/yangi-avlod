@@ -48,7 +48,7 @@
                   <li class="nav-item has-nav">
                     <a
                       class="nav-link"
-                      href="investoram/index.html"
+                      href="#!"
                       aria-label="Инвесторам"
                     >
                       Инвесторам
@@ -111,7 +111,7 @@
                   <li class="nav-item">
                     <a
                       class="nav-link"
-                      href="#!"
+                      href="{{route('frontend.normativnie_documenti')}}"
                       aria-label="Правовое регулирование"
                     >
                       Правовое регулирование
