@@ -194,10 +194,5 @@
         </div>
 
     </main>
-    <script type="text/javascript"
-        src="{{ asset('front-assets/bitrix/cache/js/s1/html/template_39fbaf6d82f625c2f260dd8e1c99c1be/template_39fbaf6d82f625c2f260dd8e1c99c1be_v16f7b.js') }}">
-    </script>
-    <script type="text/javascript"
-        src="{{ asset('front-assets/bitrix/cache/js/s1/html/page_e99ed1958ef8644bdff36f258e864051/page_e99ed1958ef8644bdff36f258e864051_v1807b.js') }}">
-    </script>
+ 
 @endsection

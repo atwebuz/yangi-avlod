@@ -265,4 +265,10 @@
             </div>
         </div>
 
-        <script src="//code.jivo.ru/widget/d2aa2K4CqO" async></script>
+        {{-- <script src="//code.jivo.ru/widget/d2aa2K4CqO" async></script> --}}
+        <script>
+            window.replainSettings = { id: '6ba1fe87-9738-41bc-bb57-2a96513d75fa' };
+            (function(u){var s=document.createElement('script');s.async=true;s.src=u;
+            var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+            })('https://widget.replain.cc/dist/client.js');
+            </script>
