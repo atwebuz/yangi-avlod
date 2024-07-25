@@ -30,4 +30,34 @@ class FrontendController extends Controller
     public function contact(){
         return view('frontend.pages.contact');
     }
+
+    
+    public function create(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            // 'parent_id' => 'nullable|exists:categories,id',
+            'photo' => 'nullable|image|mimes:jpeg,png,gif|max:2048'
+        ]);
+
+        $category = new Category();
+        $category->name = $request->get('name');
+        $category->parent_id = $request->get('parent_id', 0);
+        $category->status = 1; // Default status
+
+        if ($request->hasFile('photo')) {
+            $file = $request->file('photo');
+            $extension = $file->getClientOriginalExtension();
+            $name = time() . '.' . $extension;
+
+            $file->move(public_path('images/category'), $name);
+            $category->photo = $name;
+        }
+
+        $category->save();
+
+        return redirect()->route('categoryIndex');
+    }
+    
+
 }

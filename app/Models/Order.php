@@ -9,5 +9,17 @@ class Order extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['user_id','product_id','status'];
+    protected $fillable = [
+        'fio',
+        'company_name',
+        'email',
+        'phoner',
+        'stir',
+        'status'
+    ];
+
+    public function files()
+    {
+        $this->hasMany(File::class);
+    }
 }

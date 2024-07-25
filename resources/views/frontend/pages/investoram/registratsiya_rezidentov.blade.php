@@ -113,191 +113,110 @@
                                             </div>
 
                                             <div class="slam-easyform">
-                                                <form id="FORM-resident" class="bv-form" enctype="multipart/form-data"
-                                                    method="POST" action="#" autocomplete="on" novalidate="novalidate">
-                                                    <button type="submit" class="bv-hidden-submit"
-                                                        style="display: none; width: 0px; height: 0px;"></button>
-                                                    <div class="alert alert-success hidden" role="alert">
-                                                        Сообщение успешно отправлено. В ближайшее время мы ответим Вам.
-                                                    </div>
-                                                    <div class="alert alert-danger hidden" role="alert">
-                                                        Произошла ошибка. Сообщение не отправлено. </div>
-
-                                                    <input type="hidden" name="FORM_ID" value="FORM-resident">
-                                                    <input type="text" name="ANTIBOT[NAME]" value=""
-                                                        class="hidden">
-
-                                                    <div class="">
+                                                <form  action="{{ route('orderCreate') }}" method="post" enctype="multipart/form-data">
+                                                    @csrf
+                                                
+                                                    <div class="form-container">
+                                                        <!-- FIO контактного лица -->
                                                         <div class="form-group">
-                                                            <label class="form-control-label form-control-label--white"
-                                                                for="FORM-resident_FIELD_TITLE">ФИО контактного лица<span
-                                                                    class="asterisk"> *</span></label>
-                                                            <input class="form-control" type="text"
-                                                                id="FORM-resident_FIELD_TITLE" name="FIELDS[TITLE]"
-                                                                value="" required=""
-                                                                data-bv-message="Обязательное поле"
-                                                                data-bv-field="FIELDS[TITLE]">
-                                                            <small class="help-block" data-bv-validator="notEmpty"
-                                                                data-bv-for="FIELDS[TITLE]" data-bv-result="NOT_VALIDATED"
-                                                                style="display: none;">Обязательное поле</small>
+                                                            <label class="form-control-label form-control-label--white" for="fio">
+                                                                ФИО контактного лица<span class="asterisk"> *</span>
+                                                            </label>
+                                                            <input class="form-control" type="text" id="fio" name="fio" required>
                                                         </div>
-                                                        <div class="row">
-
-                                                            <div class="col-lg-6">
-                                                                <div class="form-group">
-                                                                    <label
-                                                                        class="form-control-label form-control-label--white"
-                                                                        for="FORM-resident_FIELD_CCOMPANY_NAME">Наименование
-                                                                        компании<span class="asterisk"> *</span></label>
-                                                                    <input class="form-control" type="text"
-                                                                        id="FORM-resident_FIELD_CCOMPANY_NAME"
-                                                                        name="FIELDS[CCOMPANY_NAME]" value=""
-                                                                        required="" data-bv-message="Обязательное поле"
-                                                                        data-bv-field="FIELDS[CCOMPANY_NAME]">
-                                                                    <small class="help-block" data-bv-validator="notEmpty"
-                                                                        data-bv-for="FIELDS[CCOMPANY_NAME]"
-                                                                        data-bv-result="NOT_VALIDATED"
-                                                                        style="display: none;">Обязательное поле</small>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-lg-6">
-                                                                <div class="form-group">
-                                                                    <label
-                                                                        class="form-control-label form-control-label--white"
-                                                                        for="FORM-resident_FIELD_EMAIL">Ваш E-mail<span
-                                                                            class="asterisk"> *</span></label>
-                                                                    <input class="form-control" type="email"
-                                                                        id="FORM-resident_FIELD_EMAIL"
-                                                                        name="FIELDS[EMAIL]" value=""
-                                                                        required="" data-bv-message="Обязательное поле"
-                                                                        data-bv-emailaddress-message="E-mail введен некорректно"
-                                                                        data-bv-field="FIELDS[EMAIL]">
-                                                                    <small class="help-block"
-                                                                        data-bv-validator="emailAddress"
-                                                                        data-bv-for="FIELDS[EMAIL]"
-                                                                        data-bv-result="NOT_VALIDATED"
-                                                                        style="display: none;">E-mail введен
-                                                                        некорректно</small><small class="help-block"
-                                                                        data-bv-validator="notEmpty"
-                                                                        data-bv-for="FIELDS[EMAIL]"
-                                                                        data-bv-result="NOT_VALIDATED"
-                                                                        style="display: none;">Обязательное поле</small>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                
+                                                        <!-- Наименование компании and E-mail -->
                                                         <div class="row">
                                                             <div class="col-lg-6">
                                                                 <div class="form-group">
-                                                                    <label
-                                                                        class="form-control-label form-control-label--white"
-                                                                        for="FORM-resident_FIELD_PHONE">Контактный
-                                                                        телефон<span class="asterisk"> *</span></label>
-                                                                    <input class="form-control" type="tel"
-                                                                        id="FORM-resident_FIELD_PHONE"
-                                                                        name="FIELDS[PHONE]" value=""
-                                                                        required="" data-bv-message="Обязательное поле"
-                                                                        data-bv-field="FIELDS[PHONE]">
-                                                                    <small class="help-block" data-bv-validator="notEmpty"
-                                                                        data-bv-for="FIELDS[PHONE]"
-                                                                        data-bv-result="NOT_VALIDATED"
-                                                                        style="display: none;">Обязательное поле</small>
+                                                                    <label class="form-control-label form-control-label--white" for="company_name">
+                                                                        Наименование компании<span class="asterisk"> *</span>
+                                                                    </label>
+                                                                    <input class="form-control" type="text" id="company_name" name="company_name" required>
                                                                 </div>
                                                             </div>
-
                                                             <div class="col-lg-6">
                                                                 <div class="form-group">
-                                                                    <label
-                                                                        class="form-control-label form-control-label--white"
-                                                                        for="FORM-resident_FIELD_UNP">ИНН<span
-                                                                            class="asterisk"> *</span></label>
-                                                                    <input class="form-control" type="text"
-                                                                        id="FORM-resident_FIELD_UNP" name="FIELDS[UNP]"
-                                                                        value="" required=""
-                                                                        data-bv-message="Обязательное поле"
-                                                                        data-bv-field="FIELDS[UNP]">
-                                                                    <small class="help-block" data-bv-validator="notEmpty"
-                                                                        data-bv-for="FIELDS[UNP]"
-                                                                        data-bv-result="NOT_VALIDATED"
-                                                                        style="display: none;">Обязательное поле</small>
+                                                                    <label class="form-control-label form-control-label--white" for="email">
+                                                                        Ваш E-mail<span class="asterisk"> *</span>
+                                                                    </label>
+                                                                    <input class="form-control" type="email" id="email" name="email" required>
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                
+                                                        <!-- Контактный телефон and ИНН -->
                                                         <div class="row">
-
-                                                            <div class="col-lg-12 helper"
-                                                                style="
-                            color: #eae1e1;
-                            margin-bottom: 15px;
-                            color: #bcbdbc;
-                        ">
-                                                                Допустимые типы файлов: doc, docx, xls, xlsx, txt, rtf, pdf,
-                                                                png, jpeg, jpg, gif</div>
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label class="form-control-label form-control-label--white" for="phone">
+                                                                        Контактный телефон<span class="asterisk"> *</span>
+                                                                    </label>
+                                                                    <input class="form-control" type="tel" id="phone" name="phone" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label class="form-control-label form-control-label--white" for="stir">
+                                                                        ИНН<span class="asterisk"> *</span>
+                                                                    </label>
+                                                                    <input class="form-control" type="text" id="stir" name="stir" required>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                
+                                                        <!-- File Uploads -->
+                                                        <div class="row">
                                                             <div class="col-lg-6">
                                                                 <div class="form-group">
                                                                     <div class="drag_n_drop-field">
                                                                         <div class="file-input" dropzone="copy f:*/*">
-                                                                            <ol class="webform-field-upload-list webform-field-upload-list-multiple"
-                                                                                id="mfi-FORM-resident_FIELD_FILE_1"></ol>
-                                                                            <div class="webform-field-upload"
-                                                                                id="mfi-FORM-resident_FIELD_FILE_1-button">
-                                                                                <span
-                                                                                    class="webform-small-button webform-button-upload">Загрузите ТЭО.doc<span
-                                                                                        class="asterisk">
-                                                                                        *</span></span><input
-                                                                                    type="file"
-                                                                                    id="file_input_FORM-resident_FIELD_FILE_1"
-                                                                                    multiple="multiple" name="bxu_files[]"
-                                                                                    accept=".doc, .docx, .xls, .xlsx, .txt, .rtf, .pdf, .png, .jpeg, .jpg, .gif">
+                                                                            <ol class="webform-field-upload-list webform-field-upload-list-multiple" id="mfi-file_1"></ol>
+                                                                            <div class="webform-field-upload" id="file_1-button">
+                                                                                <span class="webform-small-button webform-button-upload">
+                                                                                    Загрузите ТЭО.doc<span class="asterisk"> *</span>
+                                                                                </span>
+                                                                                <input type="file" id="file_1" name="bxu_files_teo[]" multiple accept=".doc, .docx, .xls, .xlsx, .txt, .rtf, .pdf, .png, .jpeg, .jpg, .gif">
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-
-
+                                                
                                                             <div class="col-lg-6">
                                                                 <div class="form-group">
                                                                     <div class="drag_n_drop-field">
                                                                         <div class="file-input" dropzone="copy f:*/*">
-                                                                            <ol class="webform-field-upload-list webform-field-upload-list-multiple"
-                                                                                id="mfi-FORM-resident_FIELD_FILE_2"></ol>
-                                                                            <div class="webform-field-upload"
-                                                                                id="mfi-FORM-resident_FIELD_FILE_2-button">
-                                                                                <span
-                                                                                    class="webform-small-button webform-button-upload">Загрузите
-                                                                                    Бизнес-план<span
-                                                                                        class="asterisk">
-                                                                                        *</span></span><input
-                                                                                    type="file"
-                                                                                    id="file_input_FORM-resident_FIELD_FILE_2"
-                                                                                    multiple="multiple" name="bxu_files[]"
-                                                                                    accept=".doc, .docx, .xls, .xlsx, .txt, .rtf, .pdf, .png, .jpeg, .jpg, .gif">
+                                                                            <ol class="webform-field-upload-list webform-field-upload-list-multiple" id="mfi-file_2"></ol>
+                                                                            <div class="webform-field-upload" id="file_2-button">
+                                                                                <span class="webform-small-button webform-button-upload">
+                                                                                    Загрузите Бизнес-план<span class="asterisk"> *</span>
+                                                                                </span>
+                                                                                <input type="file" id="file_2" name="bxu_files_biznes[]" multiple accept=".doc, .docx, .xls, .xlsx, .txt, .rtf, .pdf, .png, .jpeg, .jpg, .gif">
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                      
                                                         </div>
+                                                
+                                                        <!-- Comment -->
                                                         <div class="form-group">
-                                                            <label class="form-control-label form-control-label--white"
-                                                                for="FORM-resident_FIELD_MESSAGE">Комментарий</label>
-                                                            <textarea class="form-control--textarea form-control" id="FORM-resident_FIELD_MESSAGE" rows="5"
-                                                                name="FIELDS[MESSAGE]"></textarea>
+                                                            <label class="form-control-label form-control-label--white" for="comment">Комментарий</label>
+                                                            <textarea class="form-control--textarea form-control" id="comment" rows="5" name="comment"></textarea>
                                                         </div>
-
-
-
+                                                
+                                                        <!-- Submit Button -->
                                                         <div class="row">
                                                             <div class="col-12 center-text">
-                                                                <button type="submit" class="btn btn--primary btn--large"
-                                                                    data-default="Отправить запрос">Отправить
-                                                                    запрос</button>
+                                                                <button type="submit" class="btn btn--primary btn--large" data-default="Отправить запрос">
+                                                                    Отправить запрос
+                                                                </button>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </form>
+                                                
 
                                                 <div class="modal fade modal-add-holiday modal-feedback"
                                                     id="frm-modal-FORM-resident" role="dialog" aria-hidden="true">
@@ -379,27 +298,28 @@
                                                 парке, пожалуйста, обращайтесь по телефонам:
                                             </div>
                                             <div class="contact-box__list">
-                                                <div class="contact-box__item" style="display: flex;justify-content: flex-start">
+                                                <div class="contact-box__item"
+                                                    style="display: flex;justify-content: flex-start">
                                                     <div class="left">
-                                                      <strong style="font-weight: 700" >
-                                                        Специалисты:
-                                                    </strong>  
+                                                        <strong style="font-weight: 700">
+                                                            Специалисты:
+                                                        </strong>
 
                                                     </div>
                                                     <div class="right" style="padding: 0 20px">
                                                         <a href="tel:+998909922977 ">+998 (90) 992-29-77</a>, <br>
 
                                                         <a href="tel:+998998171180 ">+998 (99) 817-11-80</a>,<br>
-    
+
                                                         <a href="tel:+998999616226 ">+998 (99) 961-62-26</a>,
                                                         <br>
                                                         <a
                                                             href="mailto:yangiavlodzone@gmail.com">yangiavlodzone@gmail.com</a>
-    
+
                                                     </div>
-                                                   
+
                                                 </div>
-                                             
+
                                             </div>
                                         </div>
 

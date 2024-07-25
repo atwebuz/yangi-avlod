@@ -16,6 +16,7 @@ use App\Http\Controllers\Blade\CategoryController;
 use App\Http\Controllers\Blade\ProductController;
 use App\Http\Controllers\BrandController;
 use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ProductModelController;
 use App\Models\ProductModel;
 
@@ -198,4 +199,7 @@ Route::get('/investoram/nalogovie/preferensi',[FrontendController::class, 'inves
 Route::get('/investoram/podderjka/eksportov',[FrontendController::class, 'investoram_podderjka_eksportov'])->name('frontend.investoram_podderjka_eksportov');
 Route::get('/normativnie-documenti',[FrontendController::class, 'normativnie_documenti'])->name('frontend.normativnie_documenti');
 Route::get('/contact',[FrontendController::class, 'contact'])->name('frontend.contact');
+Route::post('/order/create',[OrderController::class, 'create'])->name('orderCreate');
+// Route::post('/order/create', [OrderController::class, 'store'])->name('order.store');
+
 
