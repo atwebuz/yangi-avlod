@@ -27,4 +27,7 @@ class FrontendController extends Controller
     public function normativnie_documenti(){
         return view('frontend.pages.normativnie-documenti');
     }
+    public function contact(){
+        return view('frontend.pages.contact');
+    }
 }

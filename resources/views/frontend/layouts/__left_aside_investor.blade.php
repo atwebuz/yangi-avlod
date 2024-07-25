@@ -8,6 +8,7 @@
             <a class="aside__link {{ request()->routeIs('frontend.investoram_registratsiya_rezidentov') ? 'active' : '' }}" href="{{ route('frontend.investoram_registratsiya_rezidentov') }}">Регистрация резидентов</a>
             <a class="aside__link {{ request()->routeIs('frontend.investoram_nalogovie_preferensi') ? 'active' : '' }}" href="{{ route('frontend.investoram_nalogovie_preferensi') }}">Налоговые преференции</a>
             <a class="aside__link {{ request()->routeIs('frontend.investoram_podderjka_eksportov') ? 'active' : '' }}" href="{{ route('frontend.investoram_podderjka_eksportov') }}">Поддержка экспортёров</a>
+            <a class="aside__link {{ request()->routeIs('frontend.contact') ? 'active' : '' }}" href="{{ route('frontend.contact') }}">Контакты</a>
         </nav>
         
 

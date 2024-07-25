@@ -197,4 +197,5 @@ Route::get('/investoram/registratsiya/rezidentov',[FrontendController::class, 'i
 Route::get('/investoram/nalogovie/preferensi',[FrontendController::class, 'investoram_nalogovie_preferensi'])->name('frontend.investoram_nalogovie_preferensi');
 Route::get('/investoram/podderjka/eksportov',[FrontendController::class, 'investoram_podderjka_eksportov'])->name('frontend.investoram_podderjka_eksportov');
 Route::get('/normativnie-documenti',[FrontendController::class, 'normativnie_documenti'])->name('frontend.normativnie_documenti');
+Route::get('/contact',[FrontendController::class, 'contact'])->name('frontend.contact');
 

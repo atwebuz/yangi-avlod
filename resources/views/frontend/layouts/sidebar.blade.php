@@ -75,29 +75,29 @@
                                     </a>
                                 </li>
                                 <li class="nav-item has-nav">
-                                    <a class="nav-link" href="kontakty/index.html" aria-label="Контакты">
+                                    <a class="nav-link" href="{{route('frontend.contact')}}" aria-label="Контакты">
                                         Контакты
-                                        <span class="nav-toggle js-nav-toggle"></span>
+                                        {{-- <span class="nav-toggle js-nav-toggle"></span> --}}
                                     </a>
-                                    <div class="js-nav nav-lvl2">
+                                    {{-- <div class="js-nav nav-lvl2">
                                         <ul class="nav-lvl2-list">
                                             <li class="nav-lvl2-item">
-                                                <a class="nav-lvl2-link" href="kontakty/index.html">Контакты</a>
+                                                <a class="nav-lvl2-link" href="{{route('frontend.contact')}}index.html">Контакты</a>
                                             </li>
                                             <li class="nav-lvl2-item">
                                                 <a class="nav-lvl2-link"
-                                                    href="kontakty/vakansii/index.html">Вакансии</a>
+                                                    href="{{route('frontend.contact')}}vakansii/index.html">Вакансии</a>
                                             </li>
                                             <li class="nav-lvl2-item">
                                                 <a class="nav-lvl2-link"
-                                                    href="kontakty/obratnaya-svyaz/index.html">Обратная связь</a>
+                                                    href="{{route('frontend.contact')}}obratnaya-svyaz/index.html">Обратная связь</a>
                                             </li>
                                             <li class="nav-lvl2-item">
-                                                <a class="nav-lvl2-link" href="kontakty/kak-dobratsya/index.html">Как
+                                                <a class="nav-lvl2-link" href="{{route('frontend.contact')}}kak-dobratsya/index.html">Как
                                                     добраться</a>
                                             </li>
                                         </ul>
-                                    </div>
+                                    </div> --}}
                                 </li>
                             </ul>
                         </div>
@@ -206,25 +206,10 @@
                         </li>
                         <li class="nav-item   has-nav">
 
-                            <a class="nav-link " href="/kontakty/" aria-label="Контакты">
-                                Контакты <span class="nav-toggle js-nav-toggle"></span>
+                            <a class="nav-link " href="{{route('frontend.contact')}}" aria-label="Контакты">
+                                Контакты 
                             </a>
-                            <div class="js-nav nav-lvl2 ">
-                                <ul class="nav-lvl2-list">
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/kontakty/">Контакты</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/kontakty/vakansii/">Вакансии</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/kontakty/obratnaya-svyaz/">Обратная связь</a>
-                                    </li>
-                                    <li class="nav-lvl2-item ">
-                                        <a class="nav-lvl2-link" href="/kontakty/kak-dobratsya/">Как добраться</a>
-                                    </li>
-                                </ul>
-                            </div>
+                           
                         </li>
                     </ul>
 
