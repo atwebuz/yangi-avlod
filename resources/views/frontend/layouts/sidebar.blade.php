@@ -59,7 +59,7 @@
                         <li class="nav-lvl2-item">
                           <a
                             class="nav-lvl2-link"
-                            href="investoram/preimushchestva-parka/index.html"
+                            href="{{route('frontend.investoram_premushastva')}}"
                             >Преимущества промышленной зоны
                             </a
                           >
@@ -111,7 +111,7 @@
                   <li class="nav-item">
                     <a
                       class="nav-link"
-                      href="normativnye-dokumenty/index.html"
+                      href="#!"
                       aria-label="Правовое регулирование"
                     >
                       Правовое регулирование
