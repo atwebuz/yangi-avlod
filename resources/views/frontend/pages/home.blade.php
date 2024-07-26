@@ -272,16 +272,17 @@
                                             data-src="{{ asset('front-assets/images/park/img3.jpg') }}"
                                             src="{{ asset('front-assets/images/park/img3.jpg') }}" alt="Уличная сеть" />
                                     </picture>
-                                    <!-- <div class="about-slide-body">
-                  <div class="about-slide-title">Уличная сеть</div>
-                  <div class="about-slide-desc">
+                                <div class="about-slide-body">
+                  <div class="about-slide-title">ОПЗ «Янги Авлод»  это
+                </div>
+                  {{-- <div class="about-slide-desc">
                     В рамках первой очереди развития парка на общей
                     площади 850 га построены современные 4-6 полосные
                     дороги с асфальтобетонным покрытием, уличным
                     освещением, озеленением и пешеходными тротуарами с
                     велодорожками.
-                  </div>
-                </div> -->
+                  </div> --}}
+                </div>
                                 </div>
                             </div>
                             <div class="about-slide swiper-slide">
