@@ -12,7 +12,12 @@ class File extends Model
     protected $table = 'files';
     protected $fillable = ['order_id', 'path'];
 
-    public function client()
+    // public function client()
+    // {
+    //     return $this->belongsTo(Order::class);
+    // }
+
+    public function order()
     {
         return $this->belongsTo(Order::class);
     }

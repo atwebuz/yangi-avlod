@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Blade;
 use App\Http\Controllers\Controller;
 use App\Models\Brand;
 use App\Models\Category;
+use App\Models\Order;
 use App\Models\ProductImage;
 use App\Models\ProductModel;
 use Illuminate\Http\Request;
@@ -15,8 +16,17 @@ class ProductController extends Controller
 {
     public function index()
     {
-        $products = Products::with(['region', 'images'])->get();
-        return view('pages.products.index', compact('products'));
+        // $products = Products::with(['region', 'images'])->get();
+        $orders = Order::get()->all();
+
+        return view('pages.products.index', compact('orders'));
+    }
+
+    public function show($id)
+    {
+        $item = Order::find($id);
+
+        return view('pages.products.show', compact('item'));
     }
     
     public function add()
