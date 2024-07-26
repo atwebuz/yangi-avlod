@@ -1,1 +1,79 @@
-.mini-card--alive .mini-card__title:after{top:0;right:0;bottom:0;left:0}.mini-card{position:relative;display:flex;width:100%;margin-bottom:20px}.mini-card__pic{flex:1 0 135px;max-width:135px;height:135px}.mini-card__pic img{max-width:100%}.mini-card__body{display:flex;align-items:center;width:100%;padding:10px 20px 10px 40px;border-top:1px solid #e0e0e0;border-right:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;transition:border-color .3s ease}.mini-card__title{display:-webkit-box;font-size:20px;font-weight:700;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;color:#000;text-decoration:none;transition:color .3s ease}.mini-card--alive:hover .mini-card__body{border-color:#00a9e5}.mini-card--alive:hover .mini-card__title{color:#00a9e5}.mini-card--alive .mini-card__title:after{content:'';position:absolute;display:block;width:100%;height:100%;z-index:42}@media screen and (max-width:575px){.mini-card__pic{flex:1 0 100px;max-width:100px;height:100px}.mini-card__body{padding-left:25px}.mini-card__title{font-size:16px;-webkit-line-clamp:3}}
+.mini-card--alive .mini-card__title:after {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.mini-card {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.mini-card__pic {
+    flex: 1 0 135px;
+    max-width: 135px;
+}
+
+.mini-card__pic img {
+    max-width: 100%;
+    height: 95px;
+    width: 200px;
+}
+
+.mini-card__body {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px 10px 40px;
+    border-top: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    transition: border-color .3s ease
+}
+
+.mini-card__title {
+    display: -webkit-box;
+    font-size: 20px;
+    font-weight: 700;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #000;
+    text-decoration: none;
+    transition: color .3s ease
+}
+
+.mini-card--alive:hover .mini-card__body {
+    border-color: #00a9e5
+}
+
+.mini-card--alive:hover .mini-card__title {
+    color: #00a9e5
+}
+
+.mini-card--alive .mini-card__title:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 42
+}
+
+@media screen and (max-width:575px) {
+    .mini-card__pic {
+        flex: 1 0 100px;
+        max-width: 100px;
+        height: 100px
+    }
+    .mini-card__body {
+        padding-left: 25px
+    }
+    .mini-card__title {
+        font-size: 16px;
+        -webkit-line-clamp: 3
+    }
+}

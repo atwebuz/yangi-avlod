@@ -59,7 +59,7 @@
                         <br>
                         <br>
                         <div class="plan-main__descr-text content">
-                            <div class="plane-text__title">Условия регистрации в качестве резидентов парка </div>
+                            {{-- <div class="plane-text__title">Условия регистрации в качестве резидентов парка </div> --}}
                             <div class="plan-main__descr-text">
                                 <ol>
                                     <li>Предоставление инициатором проекта инвестиционного заказа и бизнес-плана или
@@ -318,6 +318,15 @@
                                 .contact-box {
                                     margin-bottom: 50px
                                 }
+                            }
+                            .mini-card__pic img {
+                                max-width: 100%;
+                                height: 100px !important;
+                                width: 120px !important;
+                            }
+                            .mini-card__pic {
+                        
+                                height: unset !important;
                             }
                         </style>
                         <div class="doc-accordions">
