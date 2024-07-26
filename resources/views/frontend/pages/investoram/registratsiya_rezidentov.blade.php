@@ -70,9 +70,8 @@
 
                                     </li>
 
-                                    <li>После положительной оценки инвестиционного заказа проекта рабочей комиссией
-                                        управляющей компании утверждается Главой администрации города Ташкента и
-                                        выставляется на торги сроком на 30 дней;
+                                    <li>После положительной оценки управляющей компании инвестиционного заказа, он утверждается Хокимом города Ташкента и выставляется на торги сроком на 30 дней;
+
                                     </li>
                                     <li>Заключение инвестиционного договора с инициатором проекта-победителя и договора
                                         аренды с ООО «Управляющая компания особой промышленной зоны «Янги Авлод».
@@ -344,17 +343,41 @@
                                                         </strong>
 
                                                     </div>
-                                                    <div class="right" style="padding: 0 20px">
-                                                        <a href="tel:+998909922977 ">+998 (90) 992-29-77</a>, <br>
-
-                                                        <a href="tel:+998998171180 ">+998 (99) 817-11-80</a>,<br>
-
-                                                        <a href="tel:+998999616226 ">+998 (99) 961-62-26</a>,
-                                                        <br>
-                                                        <a
-                                                            href="mailto:yangiavlodzone@gmail.com">yangiavlodzone@gmail.com</a>
-
+                                                    <div class="contact-info" style="padding: 0 20px">
+                                                        <div class="contact-item">
+                                                            <a href="tel:+998909922977">+998 (90) 992-29-77</a>
+                                                        </div>
+                                                        <div class="contact-item">
+                                                            <a href="tel:+998998171180">+998 (99) 817-11-80</a>
+                                                        </div>
+                                                        <div class="contact-item">
+                                                            <a href="tel:+998999616226">+998 (99) 961-62-26</a>
+                                                        </div>
+                                                        <div class="contact-item">
+                                                            <a href="mailto:yangiavlodzone@gmail.com">yangiavlodzone@gmail.com</a>
+                                                        </div>
                                                     </div>
+                                                    <style>
+                                                            .contact-info {
+                                                                display: grid;
+                                                                grid-template-columns: repeat(1, auto); 
+                                                                gap: 10px;
+                                                                align-items: center;
+                                                                width: 100%;
+                                                                font-size: 20px;
+                                                            }
+
+                                                            .contact-item {
+                                                                display: flex;
+                                                            }
+
+                                                            .contact-item a {
+                                                                display: block;
+                                                                text-align: left; 
+                                                                width: max-content; 
+                                                            }
+
+                                                    </style>
 
                                                 </div>
 
