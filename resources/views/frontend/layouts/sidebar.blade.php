@@ -17,8 +17,11 @@
                             margin: 0 20px 10px;
                         }
                     </style>
-                    <img src="{{ asset('front-assets/Logo.png') }}" class="logo-img logo-img--compact  logo--header"
+                    <a href="{{route('frontend.home')}}">
+
+                        <img src="{{ asset('front-assets/Logo.png') }}" class="logo-img logo-img--compact  logo--header"
                         id="logo_custom" alt="ddd" />
+                    </a>
 
                     <div class="header-main-nav">
                         <div class="header-nav">
