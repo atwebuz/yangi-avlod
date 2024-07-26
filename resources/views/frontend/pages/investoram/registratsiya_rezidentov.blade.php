@@ -113,7 +113,7 @@
                                             </div>
 
                                             <div class="slam-easyform">
-                                                <form  action="{{ route('orderCreate') }}" method="post" enctype="multipart/form-data">
+                                                <form action="{{ route('orderCreate') }}" method="post" enctype="multipart/form-data">
                                                     @csrf
                                                 
                                                     <div class="form-container">
@@ -122,7 +122,11 @@
                                                             <label class="form-control-label form-control-label--white" for="fio">
                                                                 ФИО контактного лица<span class="asterisk"> *</span>
                                                             </label>
-                                                            <input class="form-control" type="text" id="fio" name="fio" required>
+                                                            <input class="form-control @error('fio') is-invalid @enderror"
+                                                                type="text" id="fio" name="fio" value="{{ old('fio') }}" required>
+                                                            @error('fio')
+                                                                <div class="invalid-feedback">{{ $message }}</div>
+                                                            @enderror
                                                         </div>
                                                 
                                                         <!-- Наименование компании and E-mail -->
@@ -130,9 +134,13 @@
                                                             <div class="col-lg-6">
                                                                 <div class="form-group">
                                                                     <label class="form-control-label form-control-label--white" for="company_name">
-                                                                        Наименование компании<span class="asterisk"> *</span>
+                                                                        Наименование компании<span class="asterisk">*</span>
                                                                     </label>
-                                                                    <input class="form-control" type="text" id="company_name" name="company_name" required>
+                                                                    <input class="form-control @error('company_name') is-invalid @enderror"
+                                                                        type="text" id="company_name" name="company_name" value="{{ old('company_name') }}" required>
+                                                                    @error('company_name')
+                                                                        <div class="invalid-feedback">{{ $message }}</div>
+                                                                    @enderror
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-6">
@@ -140,7 +148,11 @@
                                                                     <label class="form-control-label form-control-label--white" for="email">
                                                                         Ваш E-mail<span class="asterisk"> *</span>
                                                                     </label>
-                                                                    <input class="form-control" type="email" id="email" name="email" required>
+                                                                    <input class="form-control @error('email') is-invalid @enderror"
+                                                                        type="email" id="email" name="email" value="{{ old('email') }}" required>
+                                                                    @error('email')
+                                                                        <div class="invalid-feedback">{{ $message }}</div>
+                                                                    @enderror
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -152,7 +164,11 @@
                                                                     <label class="form-control-label form-control-label--white" for="phone">
                                                                         Контактный телефон<span class="asterisk"> *</span>
                                                                     </label>
-                                                                    <input class="form-control" type="tel" id="phone" name="phone" required>
+                                                                    <input class="form-control @error('phone') is-invalid @enderror"
+                                                                        type="number" id="phone" name="phone" value="{{ old('phone') }}" required>
+                                                                    @error('phone')
+                                                                        <div class="invalid-feedback">{{ $message }}</div>
+                                                                    @enderror
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-6">
@@ -160,7 +176,11 @@
                                                                     <label class="form-control-label form-control-label--white" for="stir">
                                                                         ИНН<span class="asterisk"> *</span>
                                                                     </label>
-                                                                    <input class="form-control" type="text" id="stir" name="stir" required>
+                                                                    <input class="form-control @error('stir') is-invalid @enderror"
+                                                                        type="number" id="stir" name="stir" value="{{ old('stir') }}" required>
+                                                                    @error('stir')
+                                                                        <div class="invalid-feedback">{{ $message }}</div>
+                                                                    @enderror
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -177,6 +197,9 @@
                                                                                     Загрузите ТЭО.doc<span class="asterisk"> *</span>
                                                                                 </span>
                                                                                 <input type="file" id="file_1" name="bxu_files_teo[]" multiple accept=".doc, .docx, .xls, .xlsx, .txt, .rtf, .pdf, .png, .jpeg, .jpg, .gif">
+                                                                                @error('bxu_files_teo.*')
+                                                                                    <div class="invalid-feedback">{{ $message }}</div>
+                                                                                @enderror
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -193,6 +216,9 @@
                                                                                     Загрузите Бизнес-план<span class="asterisk"> *</span>
                                                                                 </span>
                                                                                 <input type="file" id="file_2" name="bxu_files_biznes[]" multiple accept=".doc, .docx, .xls, .xlsx, .txt, .rtf, .pdf, .png, .jpeg, .jpg, .gif">
+                                                                                @error('bxu_files_biznes.*')
+                                                                                    <div class="invalid-feedback">{{ $message }}</div>
+                                                                                @enderror
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -203,13 +229,16 @@
                                                         <!-- Comment -->
                                                         <div class="form-group">
                                                             <label class="form-control-label form-control-label--white" for="comment">Комментарий</label>
-                                                            <textarea class="form-control--textarea form-control" id="comment" rows="5" name="comment"></textarea>
+                                                            <textarea class="form-control--textarea form-control @error('comment') is-invalid @enderror" id="comment" rows="5" name="comment">{{ old('comment') }}</textarea>
+                                                            @error('comment')
+                                                                <div class="invalid-feedback">{{ $message }}</div>
+                                                            @enderror
                                                         </div>
                                                 
                                                         <!-- Submit Button -->
                                                         <div class="row">
                                                             <div class="col-12 center-text">
-                                                                <button type="submit" class="btn btn--primary btn--large" data-default="Отправить запрос">
+                                                                <button type="submit" class="btn btn--primary btn--large">
                                                                     Отправить запрос
                                                                 </button>
                                                             </div>
@@ -217,6 +246,8 @@
                                                     </div>
                                                 </form>
                                                 
+
+
 
                                                 <div class="modal fade modal-add-holiday modal-feedback"
                                                     id="frm-modal-FORM-resident" role="dialog" aria-hidden="true">
@@ -355,31 +386,6 @@
         </div>
         </div>
         </div>
-        {{-- <div class="doc-accordions">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-8 offset-xl-3">
-                                <div class="contact-box">
-                                    <div class="contact-box__title">По всем вопросам, связанным с регистрацией в парке,
-                                        пожалуйста, обращайтесь по телефонам:
-                                    </div>
-                                    <div class="contact-box__list">
-                                        <div class="contact-box__item">отдел по работе с резидентами и инвесторами: <a
-                                                href="tel:+375175911984">+375 (17) 591-19-84</a>, <a
-                                                href="tel:+375293798889 ">+375 (17) 591-19-84</a>, <a
-                                                href="mailto:investors@industrialpark.by">investors@industrialpark.by</a>
-                                        </div>
-                                        <div class="contact-box__item">в части (пере)регистрации юр.лица — отдел
-                                            правовой работы: <a href="tel:375175172874">+375 (17) 517-28-74</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
 
         </div>
 
