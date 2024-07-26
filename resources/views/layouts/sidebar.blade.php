@@ -10,7 +10,7 @@
                 <li class="{{ Request::is('product*') ? 'mm-active':'' }}">
                     <a href="{{ route('productIndex') }}" class=" waves-effect {{ Request::is('product*') ? 'mm-active':'' }}">
                         <i class="bx bx-map-alt"></i>
-                        <span>@lang('cruds.branches.title')</span>
+                        <span>Buyurtmalar</span>
                     </a>
                 </li>
                 <!-- Branches -->
