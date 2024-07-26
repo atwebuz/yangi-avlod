@@ -67,23 +67,37 @@
                         </tr>
                     </thead>
                     <tbody>
-                            <tr>
-                                <td>{{ $item->id }}</td>
-                                <td>{{ $item->fio }}</td>
-                                <td>{{ $item->company_name }}</td>
-                                <td>{{ $item->email }}</td>
-                                <td>{{ $item->phoner }}</td>
-                                <td class="text-center">
-                                    <i style="cursor: pointer; font-size: 16px;" id="program_{{ $item->id }}" 
-                                    class="fas {{ $item->status === 1 ? 'fa-check-circle text-success' : 'fa-times-circle text-danger' }}"
-                                    onclick="toggle_instock({{ $item->id }})"></i>
-                                </td>
-                                <td>{{ $item->created_at->format('Y-m-d H:i:s') }}</td>
-                           
-                            </tr>
-                        
+                        <tr>
+                            <td>{{ $item->id }}</td>
+                            <td>{{ $item->fio }}</td>
+                            <td>{{ $item->company_name }}</td>
+                            <td>{{ $item->email }}</td>
+                            <td>{{ $item->phoner }}</td>
+                            <td class="text-center">
+                                <i style="cursor: pointer; font-size: 16px;" id="program_{{ $item->id }}" 
+                                class="fas {{ $item->status === 1 ? 'fa-check-circle text-success' : 'fa-times-circle text-danger' }}"
+                                onclick="toggle_instock({{ $item->id }})"></i>
+                            </td>
+                            <td>{{ $item->created_at->format('Y-m-d H:i:s') }}</td>
+                        </tr>
                     </tbody>
                 </table>
+                
+                <!-- Display associated files -->
+                <div class="mt-4">
+                    <h5>Attached Files:</h5>
+                    @if($item->files->isEmpty())
+                        <p>No files attached.</p>
+                    @else
+                        <ul>
+                            @foreach($item->files as $file)
+                                <li>
+                                    <a href="{{ asset($file->path) }}" target="_blank">{{ basename($file->path) }}</a>
+                                </li>
+                            @endforeach
+                        </ul>
+                    @endif
+                </div>
             </div>
         </div>
     </div>

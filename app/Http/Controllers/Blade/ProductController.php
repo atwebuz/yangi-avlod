@@ -24,10 +24,16 @@ class ProductController extends Controller
 
     public function show($id)
     {
-        $item = Order::find($id);
+        // Find the order and eager-load the files relationship
+        $item = Order::with('files')->find($id);
+
+        if (!$item) {
+            abort(404, 'Order not found');
+        }
 
         return view('pages.products.show', compact('item'));
     }
+
     
     public function add()
     {
