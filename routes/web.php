@@ -41,7 +41,7 @@ Auth::routes(['register' => false]);
 
 
 // Web pages
-Route::group(['middleware' => 'auth'],function (){
+Route::group(['middleware' => 'auth', 'prefix' => 'admin'],function (){
 
     // there should be graphics, diagrams about total conditions
     Route::get('/home', [HomeController::class,'index'])->name('home');

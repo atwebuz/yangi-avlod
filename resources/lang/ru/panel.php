@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'site_title' => 'Skyzone',
+    'site_title' => 'YangiAvlod',
     'welcome' => 'Добро пожаловать!',
 ];

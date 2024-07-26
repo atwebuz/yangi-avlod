@@ -16,7 +16,7 @@
                 <!-- Branches -->
 
                     <!-- Branches -->
-                <li class="{{ Request::is('blog*') ? 'mm-active':'' }}">
+                {{-- <li class="{{ Request::is('blog*') ? 'mm-active':'' }}">
                     <a href="{{ route('blogIndex') }}" class=" waves-effect {{ Request::is('blog*') ? 'mm-active':'' }}">
                         <i class="bx bx-map-alt"></i>
                         <span>@lang('cruds.blogs.title')</span>
@@ -51,26 +51,7 @@
                         <span>@lang('cruds.category.title')</span>
                     </a>
                 </li>
-                <!-- Category -->
-                
-                <!-- jobs menu started -->
-                {{-- <li class="{{ (Request::is('job*') ) ? 'mm-active':''}}">
-                    <a href="javascript: void(0);" class="has-arrow waves-effect {{ (Request::is('job*') ) ? 'mm-active':''}}">
-                        <i class="bx bx-briefcase-alt"></i>
-                        <span>@lang('cruds.job.title')</span>
-                    </a>
-                    <ul class="sub-menu {{ (Request::is('job*') ) ? ' ':'d-none'}}" aria-expanded="false">
-                        <li>
-                            <a href="{{ route('jobProgramIndex') }}" class="{{ Request::is('job-program*') ? 'mm-active':'' }}">
-                                <!-- <i class="fas fa-globe-asia" style="font-size: 14px; min-width: auto;"></i> -->
-                                @lang('cruds.job.programs')
-                            </a>
-                        </li>
-                    </ul>
-                </li> --}}
-                <!-- jobs menu end -->
-
-                <!-- regions and districts start -->
+        
                 <li class="{{ (Request::is('region*') || Request::is('district*') ) ? 'mm-active':''}}">
                     <a href="javascript: void(0);" class="has-arrow waves-effect {{ (Request::is('region*') || Request::is('district*') ) ? 'mm-active':''}}">
                         <i class="fas fa-globe-asia"></i>
@@ -92,33 +73,7 @@
                         </li>
                     </ul>
                 </li>
-                <!-- regions and districts end -->
-
-                <!-- settings start -->
-                {{-- <li class="{{ (Request::is('setting*') ) ? 'mm-active':''}}">
-                    <a href="javascript: void(0);" class="has-arrow waves-effect {{ (Request::is('setting*') ) ? 'mm-active':''}}">
-                        <i class="fas fa-cog"></i>
-                        <span>@lang('cruds.setting.title')</span>
-                    </a>
-                    <ul class="sub-menu {{ (Request::is('setting*') ) ? ' ':'d-none'}}" aria-expanded="false">
-                        <li>
-                            <a href="{{ route('settingStartMessage') }}" class="{{ Request::is('setting/start/message*') ? 'mm-active':'' }}">
-                                <!-- <i class="bx bx-text" style="font-size: 14px; min-width: auto;"></i> -->
-                                @lang('cruds.setting.text_bot')
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="{{ route('settingAbout') }}" class="{{ Request::is('setting/about*') ? 'mm-active':'' }}">
-                                <!-- <i class="bx bxs-building" style="font-size: 14px; min-width: auto;"></i> -->
-                                @lang('cruds.setting.about_company')
-                            </a>
-                        </li>
-                    </ul>
-                </li> --}}
-                <!-- settings end -->
-
-                <!-- other menu -->
+              
                 @can('api-user.view')
                 <li class="menu-title">@lang('cruds.menu_top.api_users')</li>
                 <li class="{{ Request::is('api-user*') ? 'mm-active':'' }}">
@@ -128,9 +83,9 @@
                         <span>@lang('cruds.menu_top.api_users')</span>
                     </a>
                 </li>
-                @endcan
+                @endcan --}}
 
-                @can('api-user.view')
+                {{-- @can('api-user.view')
                 <li class="{{ (Request::is('permission*') || Request::is('role*') || Request::is('user*')) ? 'mm-active':''}}">
                     <a href="javascript: void(0);" class="has-arrow waves-effect {{ (Request::is('permission*') || Request::is('role*') || Request::is('user*')) ? 'mm-active':''}}">
                         <i class="fas fa-users-cog"></i>
@@ -158,7 +113,6 @@
                         @can('user.show')
                             <li>
                                 <a href="{{ route('userIndex') }}" class="{{ Request::is('user*') ? 'mm-active':'' }}">
-                                    <!-- <i class="fas fa-user-friends"></i> -->
                                     <i class="bx bxs-user-plus" style="font-size: 14px; min-width: auto;"></i>
                                     @lang('cruds.user.title')
                                 </a>
@@ -166,7 +120,7 @@
                         @endcan
                     </ul>
                 </li>
-                @endcan
+                @endcan --}}
 
                 <li class="menu-title">@lang('global.theme')</li>
                 <li class="">

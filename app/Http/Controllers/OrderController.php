@@ -38,6 +38,7 @@ class OrderController extends Controller
                  'email' => 'required|email|max:255',
                  'phone' => 'required|string',
                  'stir' => 'required|string',
+                 'comment' => 'nullable',
              ]);
      
              // Create the order
@@ -48,6 +49,7 @@ class OrderController extends Controller
                  'phone' => $validated['phone'],
                  'stir' => $validated['stir'],
                  'status' => $request->get('status', 0),
+                 'comment' => $request->get('comment', ''),
              ]);
      
              // Function to handle file upload and save
@@ -131,6 +133,7 @@ class OrderController extends Controller
                          "📬: {$validated['email']}\n" .
                          "☎️: {$validated['phone']}\n" .
                          "INN: {$validated['stir']}\n" .
+                         "📃: {$validated['comment']}\n" .
                          "📅 Sanasi: {$orderDate}\n\n";
      
              if (empty($fileDetails)) {

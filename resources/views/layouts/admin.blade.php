@@ -6,7 +6,7 @@
 	<title>@lang('panel.site_title')</title>
 	<!-- Tell the browser to be responsive to screen width -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="{{ asset('assets/images/favicon_techwiz.ico') }}">
+	<link rel="shortcut icon" href="{{ asset('front-assets/Logo.png') }}">
 	<!-- DataTables -->
 	<link href="{{ asset('assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />
 	<link href="{{ asset('assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />
@@ -31,6 +31,13 @@
 	<!-- Begin page -->
 	<div id="layout-wrapper">
 
+		<style>
+		
+			.vertical-collpsed .navbar-brand-box {
+				width: 69px !important;
+				padding: 0 !important;
+			}
+		</style>
 
 		<header id="page-topbar">
 			<div class="navbar-header">
@@ -39,19 +46,19 @@
 					<div class="navbar-brand-box">
 						<a href="{{ route('home') }}" class="logo logo-dark">
 							<span class="logo-sm">
-								<img src="{{ asset('assets/images/favicon_techwiz.ico') }}" alt="" height="22">
+								<img src="{{ asset('front-assets/Logo.png') }}" alt="" height="22">
 							</span>
 							<span class="logo-lg">
-								<img src="{{ asset('assets/images/logo_red.png') }}" alt="" height="50">
+								<img src="{{ asset('front-assets/Logo.png') }}" alt="" height="50">
 							</span>
 						</a>
 
 						<a href="{{ route('home') }}" class="logo logo-light">
 							<span class="logo-sm">
-								<img src="{{ asset('assets/images/favicon_techwiz.ico') }}" alt="" height="22">
+								<img src="{{ asset('front-assets/Logo.png') }}" alt="" height="22">
 							</span>
 							<span class="logo-lg">
-								<img src="{{ asset('assets/images/logo_red.png') }}" alt="" height="50">
+								<img src="{{ asset('front-assets/Logo.png') }}" alt="" height="50">
 							</span>
 						</a>
 					</div>
@@ -148,7 +155,7 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-sm-6">
-						    <strong>Copyright &copy; {{ date('Y') }} <a href="https://t.me/skyzone_admin">Skyzone-Group </a>.</strong>
+						    <strong>Copyright &copy; {{ date('Y') }} <a href="https://teamdevs.uz">YangiAvlod </a>.</strong>
 			                All rights reserved.
 						</div>
 						<div class="col-sm-6">

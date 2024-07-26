@@ -161,7 +161,7 @@
             </div>
             <span class="panel_footer">
                 <strong>&copy; {{ date('Y') }} 
-                    <a href="https://t.me/skyzone_admin">Skyzone-Group </a>.</strong>
+                    <a href="https://teamdevs.uz">YangiAvlod </a>.</strong>
             </span>
         </div>
     </div>
