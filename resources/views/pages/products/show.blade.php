@@ -72,7 +72,7 @@
                                 <td>{{ $item->fio }}</td>
                                 <td>{{ $item->company_name }}</td>
                                 <td>{{ $item->email }}</td>
-                                <td>{{ $item->phone }}</td>
+                                <td>{{ $item->phoner }}</td>
                                 <td class="text-center">
                                     <i style="cursor: pointer; font-size: 16px;" id="program_{{ $item->id }}" 
                                     class="fas {{ $item->status === 1 ? 'fa-check-circle text-success' : 'fa-times-circle text-danger' }}"
