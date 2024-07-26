@@ -334,10 +334,8 @@
                                 <div class="row">
                                     <div class="col-xl-12">
                                         <div class="contact-box">
-                                            <div class="contact-box__title">По всем вопросам, связанным с регистрацией в
-                                                парке, пожалуйста, обращайтесь по телефонам:
-                                            </div>
-                                            <div class="contact-box__list">
+                                       
+                                            <div class="contact-box__list " style="display: flex">
                                                 <div class="contact-box__item"
                                                     style="display: flex;justify-content: flex-start">
                                                     <div class="left">
@@ -358,6 +356,10 @@
 
                                                     </div>
 
+                                                </div>
+
+                                                <div class="contact-box__title">По всем вопросам, связанным с регистрацией в
+                                                    парке, пожалуйста, обращайтесь по телефонам:
                                                 </div>
 
                                             </div>
