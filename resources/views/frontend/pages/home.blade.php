@@ -215,74 +215,103 @@
                     <div class="swiper-container js-swiper-slider">
                         <div class="swiper-wrapper">
                             <div class="about-slide swiper-slide">
+                                <div class="about-slide-container" id="bx_1967836421_17991">
+                                    <picture class="lazy-img-wrap about-slide-img-wrap">
+                                        <source data-srcset="{{ asset('front-assets/images/park/img5.jpg') }}"
+                                            srcset="
+                                        {{ asset('front-assets/images/park/img5.jpg') }}
+                                        "
+                                            media="(min-width: 500px)" />
+                                        <source data-srcset="{{ asset('front-assets/images/park/img5.jpg') }}"
+                                            srcset="
+                                        {{ asset('front-assets/images/park/img5.jpg') }}
+                                                     "
+                                            media="(min-width: 0px)" />
+                                        <img class="swiper-lazy about-slide-img"
+                                            data-src="{{ asset('front-assets/images/park/img5.jpg') }}"
+                                            src="{{ asset('front-assets/images/park/img5.jpg') }}"
+                                            alt="Распределение промышленной зоны по направлениям
+                                        " />
+                                    </picture>
+                                    <div class="about-slide-body">
+                                        <div class="about-slide-title">
+                                            Распределение промышленной зоны по направлениям
+
+                                        </div>
+                                        <!-- <div class="about-slide-desc">
+                                            <p></p>
+                                            <p>
+                                            Для удобства размещения подрядных строительных
+                                            организаций на территории парка функционирует
+                                            строительный городок с возможностью размещения
+                                            более 1,5 тыс. человек. Здесь также создана
+                                            инфраструктура для досуга: универсальная
+                                            спортивная площадка, зона с тренажерами для
+                                            занятий на улице, контейнерный городок для
+                                            объектов бытового обслуживания и отдыха.
+                                            </p>
+                                            <p></p>
+                                        </div> -->
+                                        <!--<a class="about-slide-link" href="/o-parke/obshhaya-informaciya/">ПОДРОБНЕЕ</a>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about-slide swiper-slide">
                                 <div class="about-slide-container" id="bx_1967836421_16799">
                                     <picture class="lazy-img-wrap about-slide-img-wrap">
                                         <source data-srcset="{{ asset('front-assets/images/park/img1.jpg') }}"
                                             srcset="
-                  data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
-                "
+                                                                                data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
+                                                                                "
                                             media="(min-width: 500px; min-height:500px)" />
                                         <source data-srcset="{{ asset('front-assets/images/park/img1.jpg') }}"
                                             srcset="
-                  data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
-                "
+                                                                                data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
+                                                                                "
                                             media="(min-width: 0px)" />
                                         <img class="swiper-lazy about-slide-img"
                                             data-src="{{ asset('front-assets/images/park/img1.jpg') }}"
                                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                            alt="Индустриальный парк «Великий камень»" />
+                                            alt="ОСОБАЯ ПРОМЫШЛЕННАЯ ЗОНА «YANGI AVLOD»
+                                                                                          " />
                                     </picture>
                                     <div class="about-slide-body">
                                         <div class="about-slide-title">
-                                            Индустриальный парк «Великий камень»
+                                            ОСОБАЯ ПРОМЫШЛЕННАЯ ЗОНА «YANGI AVLOD»
+
                                         </div>
                                         <div class="about-slide-desc">
-                                            Парк расположен в 25 км от столицы Республики
-                                            Беларусь – города Минска в уникальном природном
-                                            комплексе и в непосредственной близости от
-                                            международного аэропорта, железнодорожных путей,
-                                            транснациональной автомобильной магистрали
-                                            Берлин-Москва. На территории парка планируется
-                                            разместить производственные и жилые зоны, офисные и
-                                            торгово-развлекательные комплексы, финансовый и
-                                            научно-исследовательский центры. «Великий камень»
-                                            предназначен для развития высокотехнологичной
-                                            промышленности и бизнеса, в том числе производства,
-                                            логистики, проведения исследований и разработок.
+                                            Особая промышленная зона расположенная в Янгихаятском районе города Ташкента.
+                                            Проект предполагает 764,5 га промышленной территории с развитой логистической
+                                            инфраструктурой, складскими, административными и коммерческими объектами
                                         </div>
                                         <!--<a class="about-slide-link" href="/o-parke/obshhaya-informaciya/">ПОДРОБНЕЕ</a>-->
                                     </div>
                                 </div>
                             </div>
-                           
+
                             <div class="about-slide swiper-slide">
                                 <div class="about-slide-container" id="bx_1967836421_17982">
                                     <picture class="lazy-img-wrap about-slide-img-wrap">
                                         <source data-srcset="{{ asset('front-assets/images/park/img3.jpg') }}"
                                             srcset="
-                 {{ asset('front-assets/images/park/img3.jpg') }}
-                "
+                                    {{ asset('front-assets/images/park/img3.jpg') }}
+                                        "
                                             media="(min-width: 500px)" />
                                         <source data-srcset="{{ asset('front-assets/images/park/img3.jpg') }}"
                                             srcset="
-                 {{ asset('front-assets/images/park/img3.jpg') }}
-                "
+                                        {{ asset('front-assets/images/park/img3.jpg') }}
+                                        "
                                             media="(min-width: 0px)" />
                                         <img class="swiper-lazy about-slide-img"
                                             data-src="{{ asset('front-assets/images/park/img3.jpg') }}"
                                             src="{{ asset('front-assets/images/park/img3.jpg') }}" alt="Уличная сеть" />
                                     </picture>
-                                <div class="about-slide-body">
-                  <div class="about-slide-title">ОПЗ «Янги Авлод»  это
-                </div>
-                  {{-- <div class="about-slide-desc">
-                    В рамках первой очереди развития парка на общей
-                    площади 850 га построены современные 4-6 полосные
-                    дороги с асфальтобетонным покрытием, уличным
-                    освещением, озеленением и пешеходными тротуарами с
-                    велодорожками.
-                  </div> --}}
-                </div>
+                                    <div class="about-slide-body">
+                                        <div class="about-slide-title">ОПЗ «Янги Авлод» это
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
                             <div class="about-slide swiper-slide">
@@ -290,13 +319,13 @@
                                     <picture class="lazy-img-wrap about-slide-img-wrap">
                                         <source data-srcset="{{ asset('front-assets/images/park/img4.jpg') }}"
                                             srcset="
-                {{ asset('front-assets/images/park/img4.jpg') }}
-                "
+                                                {{ asset('front-assets/images/park/img4.jpg') }}
+                                                "
                                             media="(min-width: 500px)" />
                                         <source data-srcset="{{ asset('front-assets/images/park/img4.jpg') }}"
                                             srcset="
-                {{ asset('front-assets/images/park/img4.jpg') }}
-                "
+                                                {{ asset('front-assets/images/park/img4.jpg') }}
+                                                "
                                             media="(min-width: 0px)" />
                                         <img class="swiper-lazy about-slide-img"
                                             data-src="{{ asset('front-assets/images/park/img4.jpg') }}"
@@ -322,48 +351,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="about-slide swiper-slide">
-                                <div class="about-slide-container" id="bx_1967836421_17991">
-                                    <picture class="lazy-img-wrap about-slide-img-wrap">
-                                        <source data-srcset="{{ asset('front-assets/images/park/img5.jpg') }}"
-                                            srcset="
-                  {{ asset('front-assets/images/park/img5.jpg') }}
-                "
-                                            media="(min-width: 500px)" />
-                                        <source data-srcset="{{ asset('front-assets/images/park/img5.jpg') }}"
-                                            srcset="
-                  {{ asset('front-assets/images/park/img5.jpg') }}
-                "
-                                            media="(min-width: 0px)" />
-                                        <img class="swiper-lazy about-slide-img"
-                                            data-src="{{ asset('front-assets/images/park/img5.jpg') }}"
-                                            src="{{ asset('front-assets/images/park/img5.jpg') }}"
-                                            alt="Распределение промышленной зоны по направлениям
-" />
-                                    </picture>
-                                    <div class="about-slide-body">
-                                        <div class="about-slide-title">
-                                            Распределение промышленной зоны по направлениям
-
-                                        </div>
-                                        <!-- <div class="about-slide-desc">
-                    <p></p>
-                    <p>
-                      Для удобства размещения подрядных строительных
-                      организаций на территории парка функционирует
-                      строительный городок с возможностью размещения
-                      более 1,5 тыс. человек. Здесь также создана
-                      инфраструктура для досуга: универсальная
-                      спортивная площадка, зона с тренажерами для
-                      занятий на улице, контейнерный городок для
-                      объектов бытового обслуживания и отдыха.
-                    </p>
-                    <p></p>
-                  </div> -->
-                                        <!--<a class="about-slide-link" href="/o-parke/obshhaya-informaciya/">ПОДРОБНЕЕ</a>-->
-                                    </div>
-                                </div>
-                            </div>
+                          
                             <div class="about-slide swiper-slide">
                                 <div class="about-slide-container" id="bx_1967836421_17984">
                                     <picture class="lazy-img-wrap about-slide-img-wrap">
@@ -716,11 +704,11 @@
                                                                 добавленной стоимостью в сотрудничестве с
                                                                 международными брендами;</h3>
                                                             <!-- - Парк расположен в самом центре Беларуси<br />-
-                            Развитое транспортное сообщение в пределах
-                            прямой досягаемости<br />- Международная
-                            автомагистраль Москва-Берлин (M1 / E30) в
-                            Россию и Центральную Европу проходит через
-                            Парк -->
+                                Развитое транспортное сообщение в пределах
+                                прямой досягаемости<br />- Международная
+                                автомагистраль Москва-Берлин (M1 / E30) в
+                                Россию и Центральную Европу проходит через
+                                Парк -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -738,20 +726,20 @@
                                                             </div>
                                                         </div>
                                                         <!-- <div
-                            class="statistics-card-value"
-                            data-unit="км"
-                          >
-                            &lt;600
-                          </div> -->
+                                class="statistics-card-value"
+                                data-unit="км"
+                              >
+                                &lt;600
+                              </div> -->
                                                         <h3>Расширение проектов промышленной кооперации и
                                                             локализации, в том числе внедрение кластерной
                                                             системы;</h3>
                                                         <!-- <div class="advantages-card-text">
-                            Рига — <b>499 км</b><br />Клайпеда —
-                            <b>530 км</b><br />Калининград —
-                            <b>585 км</b><br />Дуйсбург, речной порт —
-                            <b>1644 км</b>
-                          </div> -->
+                                Рига — <b>499 км</b><br />Клайпеда —
+                                <b>530 км</b><br />Калининград —
+                                <b>585 км</b><br />Дуйсбург, речной порт —
+                                <b>1644 км</b>
+                              </div> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -765,13 +753,13 @@
                                                             <h3>Увеличение объема сфер промышленности и услуг
                                                                 путем их развития</h3>
                                                             <!-- - Два крупнейших трансъевропейских
-                            железнодорожных транспортных коридора
-                            обеспечивают отличные связи с Европой и
-                            Россией, а также с Балтийским и Черным
-                            морями <br />- Прямое подключение к
-                            Транссибирской магистрали <br />- Прямое
-                            сообщение с транзитным международным
-                            маршрутом Чунцин - Синьцзян - Европа -->
+                                железнодорожных транспортных коридора
+                                обеспечивают отличные связи с Европой и
+                                Россией, а также с Балтийским и Черным
+                                морями <br />- Прямое подключение к
+                                Транссибирской магистрали <br />- Прямое
+                                сообщение с транзитным международным
+                                маршрутом Чунцин - Синьцзян - Европа -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -790,17 +778,17 @@
                                                             </div>
                                                         </div>
                                                         <!-- <div
-                            class="statistics-card-value"
-                            data-unit="км"
-                          >
-                            &lt;1
-                          </div> -->
+                                class="statistics-card-value"
+                                data-unit="км"
+                              >
+                                &lt;1
+                              </div> -->
                                                         <h3>Выделение субъектам предпринимательства земельных
                                                             участков на основе права аренды в установленном
                                                             порядке</h3>
                                                         <!-- <div class="advantages-card-text">
-                            - Международный аэропорт включен в границы
-                            Парка <br /> -->
+                                - Международный аэропорт включен в границы
+                                Парка <br /> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -1034,7 +1022,8 @@
                 object-fit: cover;
                 z-index: -10;
             }
-            .about-slide-body{border: 3px solid red !important;}
+
+            /* .about-slide-body{border: 3px solid red !important;} */
         </style>
 
         <iframe style="width: 100%;"
