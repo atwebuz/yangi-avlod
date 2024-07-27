@@ -1026,10 +1026,12 @@
             /* .about-slide-body{border: 3px solid red !important;} */
         </style>
 
-        <iframe style="width: 100%;"
+        {{-- <iframe style="width: 100%;"
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4063.188205745143!2d69.25854800630309!3d41.165126256500535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2s!4v1721493849221!5m2!1sru!2s"
             height="550" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
+            <iframe style="width: 100%;" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3003.590496911479!2d69.26252279364016!3d41.165286150309214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDA5JzUzLjgiTiA2OcKwMTUnNTAuMiJF!5e0!3m2!1sen!2s!4v1722085950629!5m2!1sen!2s"
+             height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     </div>
 @endsection
