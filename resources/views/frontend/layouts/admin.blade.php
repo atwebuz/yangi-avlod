@@ -9,16 +9,15 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-        Индустриальный парк Великий камень, Китайско-Белорусский индустриальный
-        парк Great Stone
+        YangiAvlod
     </title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="local/templates/html/images/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="local/templates/html/images/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="local/templates/html/images/favicon/favicon-16x16.png" />
-    <link rel="icon" type="image/x-icon" href="local/templates/html/images/favicon/favicon.ico" />
-    <link rel="manifest" href="local/templates/html/images/favicon/site.html" />
-    <link rel="mask-icon" href="local/templates/html/images/favicon/safari-pinned-tab.svg" color="#3b3b3b" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('front-assets/Logo.png')}}" />
+    <link rel="icon" type="image/png" sizes="32x32" href={{asset('front-assets/Logo.png')}}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('front-assets/Logo.png')}}" />
+    <link rel="icon" type="image/x-icon" href="{{asset('front-assets/Logo.png')}}" />
+    <link rel="manifest" href="#!" />
+    <link rel="mask-icon" href="{{asset('front-assets/Logo.png')}}" color="#3b3b3b" />
     <meta name="msapplication-navbutton-color" content="#525ECA" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#525ECA" />
     <meta name="msapplication-TileColor" content="#525ECA" />
